@@ -11,9 +11,9 @@
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Share+Tech+Mono&display=swap" rel="stylesheet">
 <style>
-/* âââââââââââââââââââââââââââââââââââââââââââ
+/* Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
    RESET & ROOT
-âââââââââââââââââââââââââââââââââââââââââââ */
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ */
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 :root{
   --bg:#0a0e14;
@@ -54,16 +54,16 @@ body::after{
   pointer-events:none;z-index:9998;
 }
 
-/* âââââââââââââââââââââââââââââââââââââââââââ
+/* Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
    TYPOGRAPHY
-âââââââââââââââââââââââââââââââââââââââââââ */
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ */
 .pixel{font-family:var(--pixel)}
 .vt{font-family:var(--vt);font-size:20px;line-height:1.2}
 h1,h2,h3{font-family:var(--pixel)}
 
-/* âââââââââââââââââââââââââââââââââââââââââââ
+/* Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
    BUTTONS
-âââââââââââââââââââââââââââââââââââââââââââ */
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ */
 .btn{
   display:inline-flex;align-items:center;justify-content:center;gap:6px;
   font-family:var(--pixel);font-size:9px;letter-spacing:.5px;
@@ -83,9 +83,9 @@ h1,h2,h3{font-family:var(--pixel)}
 .btn-sm{padding:6px 12px;font-size:8px}
 .btn-lg{padding:14px 28px;font-size:11px}
 
-/* âââââââââââââââââââââââââââââââââââââââââââ
+/* Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
    INPUTS
-âââââââââââââââââââââââââââââââââââââââââââ */
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ */
 input,textarea,select{
   font-family:var(--mono);font-size:14px;
   background:var(--bg3);border:1px solid var(--border2);
@@ -95,14 +95,14 @@ input,textarea,select{
 input:focus,textarea:focus,select:focus{border-color:var(--cyan);box-shadow:0 0 8px rgba(0,229,255,.2)}
 input::placeholder{color:var(--muted)}
 
-/* âââââââââââââââââââââââââââââââââââââââââââ
+/* Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
    APP SHELL
-âââââââââââââââââââââââââââââââââââââââââââ */
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ */
 #app{display:flex;flex-direction:column;height:100%}
 
-/* âââââââââââââââââââââââââââââââââââââââââââ
+/* Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
    TOPBAR
-âââââââââââââââââââââââââââââââââââââââââââ */
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ */
 .topbar{
   background:var(--cyan);
   padding:0 16px;
@@ -123,17 +123,17 @@ input::placeholder{color:var(--muted)}
 }
 .topbar-btn:hover{background:#000;color:var(--cyan)}
 
-/* âââââââââââââââââââââââââââââââââââââââââââ
+/* Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
    PAGES
-âââââââââââââââââââââââââââââââââââââââââââ */
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ */
 .pages{flex:1;overflow:hidden;position:relative}
 .page{position:absolute;inset:0;overflow-y:auto;-webkit-overflow-scrolling:touch;display:none}
 .page.active{display:block}
 .page-content{padding:20px 16px;padding-bottom:calc(80px + var(--safe-b))}
 
-/* âââââââââââââââââââââââââââââââââââââââââââ
+/* Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
    BOTTOM NAV
-âââââââââââââââââââââââââââââââââââââââââââ */
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ */
 .bottom-nav{
   background:var(--bg2);border-top:2px solid var(--cyan);
   display:flex;flex-shrink:0;
@@ -150,9 +150,9 @@ input::placeholder{color:var(--muted)}
 .nav-btn.active{color:var(--cyan)}
 .nav-btn.active .ni{filter:drop-shadow(0 0 4px var(--cyan))}
 
-/* âââââââââââââââââââââââââââââââââââââââââââ
+/* Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
    LOGIN PAGE
-âââââââââââââââââââââââââââââââââââââââââââ */
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ */
 .login-page{
   position:fixed;inset:0;z-index:500;
   background:var(--bg);display:flex;flex-direction:column;
@@ -198,9 +198,9 @@ input::placeholder{color:var(--muted)}
 }
 .login-divider::before,.login-divider::after{content:'';flex:1;height:1px;background:var(--border)}
 
-/* âââââââââââââââââââââââââââââââââââââââââââ
+/* Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
    FEED PAGE
-âââââââââââââââââââââââââââââââââââââââââââ */
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ */
 .feed-header{
   background:var(--bg2);border:1px solid var(--border);
   padding:14px;margin-bottom:16px;
@@ -274,9 +274,9 @@ input::placeholder{color:var(--muted)}
   padding:8px 10px;display:flex;align-items:center;gap:8px;margin-bottom:6px;
 }
 
-/* âââââââââââââââââââââââââââââââââââââââââââ
+/* Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
    QUESTS PAGE
-âââââââââââââââââââââââââââââââââââââââââââ */
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ */
 .cat-scroller{
   display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;margin-bottom:16px;
   -webkit-overflow-scrolling:touch;scrollbar-width:none;
@@ -328,9 +328,9 @@ input::placeholder{color:var(--muted)}
 .del-btn{font-size:18px;color:var(--muted);background:none;border:none;cursor:pointer;padding:0 2px;line-height:1}
 .del-btn:hover{color:var(--red)}
 
-/* âââââââââââââââââââââââââââââââââââââââââââ
+/* Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
    PROFILE PAGE
-âââââââââââââââââââââââââââââââââââââââââââ */
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ */
 .profile-card{
   background:var(--card);border:2px solid var(--cyan);
   padding:20px;text-align:center;margin-bottom:16px;
@@ -383,9 +383,9 @@ input::placeholder{color:var(--muted)}
 .inline-row{display:flex;gap:8px;align-items:flex-end}
 .inline-row input{flex:1}
 
-/* âââââââââââââââââââââââââââââââââââââââââââ
+/* Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
    LEADERBOARD
-âââââââââââââââââââââââââââââââââââââââââââ */
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ */
 .lb-title-bar{text-align:center;margin-bottom:20px}
 .lb-main-title{font-family:var(--pixel);font-size:12px;color:var(--gold);text-shadow:0 0 16px rgba(255,215,0,.4);margin-bottom:6px}
 .lb-sort-row{display:flex;gap:6px;justify-content:center;margin-bottom:16px}
@@ -413,9 +413,9 @@ input::placeholder{color:var(--muted)}
 .cat-prog-bar-fill{height:100%;background:var(--cyan);transition:width .4s}
 .cat-prog-val{font-family:var(--pixel);font-size:8px;color:var(--cyan);flex-shrink:0}
 
-/* âââââââââââââââââââââââââââââââââââââââââââ
+/* Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
    TOURNAMENTS
-âââââââââââââââââââââââââââââââââââââââââââ */
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ */
 .arena-header{text-align:center;margin-bottom:20px}
 .arena-title{font-family:var(--pixel);font-size:12px;color:var(--orange);text-shadow:0 0 16px rgba(255,107,0,.5);margin-bottom:6px}
 .tourney-card{background:var(--card);border:1px solid var(--border);border-top:3px solid var(--orange);padding:14px;margin-bottom:12px}
@@ -428,9 +428,9 @@ input::placeholder{color:var(--muted)}
 .sub-status-rejected{background:rgba(255,51,85,.08);border:1px solid rgba(255,51,85,.3);padding:8px;font-size:12px;color:var(--red)}
 .coming-soon-box{background:var(--card);border:2px dashed var(--border2);padding:24px;text-align:center;margin-top:16px}
 
-/* âââââââââââââââââââââââââââââââââââââââââââ
+/* Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
    GM DASHBOARD
-âââââââââââââââââââââââââââââââââââââââââââ */
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ */
 .gm-header-card{background:linear-gradient(135deg,rgba(155,89,255,.15),rgba(0,229,255,.05));border:1px solid rgba(155,89,255,.4);padding:16px;text-align:center;margin-bottom:16px}
 .gm-title{font-family:var(--pixel);font-size:10px;color:var(--purple);text-shadow:0 0 16px rgba(155,89,255,.5);margin-bottom:4px}
 .gm-stats-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:16px}
@@ -464,9 +464,9 @@ input::placeholder{color:var(--muted)}
 
 .tourney-manage-row{background:var(--card);border:1px solid var(--border);padding:10px 12px;display:flex;align-items:center;gap:8px;margin-bottom:6px}
 
-/* âââââââââââââââââââââââââââââââââââââââââââ
+/* Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
    MODAL
-âââââââââââââââââââââââââââââââââââââââââââ */
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ */
 .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:400;display:flex;align-items:flex-end;backdrop-filter:blur(3px)}
 .modal-overlay.hidden{display:none}
 .modal{background:var(--bg2);border:2px solid var(--border2);border-bottom:none;padding:20px;width:100%;max-height:85vh;overflow-y:auto;padding-bottom:calc(20px + var(--safe-b));animation:slideUp .25s ease}
@@ -474,9 +474,9 @@ input::placeholder{color:var(--muted)}
 .modal-handle{width:36px;height:3px;background:var(--border2);margin:0 auto 16px}
 .modal-title{font-family:var(--pixel);font-size:10px;color:var(--cyan);margin-bottom:14px}
 
-/* âââââââââââââââââââââââââââââââââââââââââââ
+/* Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
    TOAST
-âââââââââââââââââââââââââââââââââââââââââââ */
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ */
 #toasts{position:fixed;bottom:calc(68px + var(--safe-b) + 10px);right:10px;left:10px;z-index:9000;pointer-events:none;display:flex;flex-direction:column;gap:6px}
 .toast{background:var(--bg2);border:1px solid var(--border2);padding:10px 14px;display:flex;align-items:center;gap:10px;animation:slideUp .25s ease;box-shadow:0 4px 16px rgba(0,0,0,.6)}
 .toast.green{border-color:var(--green)}
@@ -485,15 +485,15 @@ input::placeholder{color:var(--muted)}
 .toast-title{font-family:var(--pixel);font-size:8px;color:var(--text)}
 .toast-msg{font-size:11px;color:var(--muted2);margin-top:2px}
 
-/* âââââââââââââââââââââââââââââââââââââââââââ
+/* Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
    XP POPUP
-âââââââââââââââââââââââââââââââââââââââââââ */
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ */
 .xp-pop{position:fixed;pointer-events:none;z-index:9999;font-family:var(--pixel);font-size:11px;color:var(--green);text-shadow:0 0 8px rgba(57,255,20,.6);animation:xpFloat 1s ease forwards}
 @keyframes xpFloat{0%{opacity:1;transform:translateY(0) scale(1)}100%{opacity:0;transform:translateY(-50px) scale(1.3)}}
 
-/* âââââââââââââââââââââââââââââââââââââââââââ
+/* Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
    MISC
-âââââââââââââââââââââââââââââââââââââââââââ */
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ */
 .empty{text-align:center;padding:40px 20px;color:var(--muted)}
 .empty-emoji{font-size:40px;margin-bottom:12px}
 .empty-text{font-size:13px;color:var(--muted2)}
@@ -544,6 +544,30 @@ input::placeholder{color:var(--muted)}
 .daily-prog-section{margin-bottom:16px}
 .daily-prog-label{display:flex;justify-content:space-between;font-size:11px;color:var(--muted2);font-family:var(--mono);margin-bottom:4px}
 
+
+  /* ── Emoji font fix — ensure emoji render correctly ── */
+  @font-face {
+    font-family: 'EmojiFont';
+    src: local('Apple Color Emoji'), local('Segoe UI Emoji'),
+         local('Noto Color Emoji'), local('Android Emoji');
+    unicode-range: U+1F000-1FFFF, U+2600-27FF, U+2B00-2BFF,
+                   U+FE00-FE0F, U+1F300-1F9FF, U+231A-231B,
+                   U+23E9-23F3, U+25AA-25AB, U+25B6, U+25C0,
+                   U+25FB-25FE, U+2614-2615, U+2648-2653, U+267F,
+                   U+2693, U+26A1, U+26AA-26AB, U+26BD-26BE,
+                   U+26C4-26C5, U+26CE, U+26D4, U+26EA, U+26F2-26F3,
+                   U+26F5, U+26FA, U+26FD, U+2702, U+2705,
+                   U+2708-270D, U+270F, U+2712, U+2714, U+2716,
+                   U+271D, U+2721, U+2728, U+2733-2734, U+2744,
+                   U+2747, U+274C, U+274E, U+2753-2755, U+2757,
+                   U+2763-2764, U+2795-2797, U+27A1, U+27B0, U+27BF;
+  }
+  .emoji, [class*="avatar"], [class*="icon"], .tab-btn span,
+  button span, .nav-icon, .avatar-grid span, .avatar-grid button,
+  .avatar-option, [data-avatar], .choose-avatar span {
+    font-family: 'EmojiFont', 'Apple Color Emoji', 'Segoe UI Emoji',
+                 'Noto Color Emoji', sans-serif !important;
+  }
 </style>
 </head>
 <body>
@@ -574,7 +598,7 @@ input::placeholder{color:var(--muted)}
         <input type="password" id="l-pass" placeholder="Enter password" autocomplete="current-password">
       </div>
       <div class="login-err" id="l-err"></div>
-      <button class="btn btn-green btn-full btn-lg" onclick="doLogin()" style="margin-top:4px">â¶ START</button>
+      <button class="btn btn-green btn-full btn-lg" onclick="doLogin()" style="margin-top:4px">Ã¢ÂÂ¶ START</button>
     </div>
 
     <!-- SIGNUP FORM -->
@@ -594,11 +618,11 @@ input::placeholder{color:var(--muted)}
       <div class="form-group">
         <label class="form-label">Choose Avatar</label>
         <div class="avatar-grid" id="signup-avs">
-          ${['âï¸','ð§','ð¹','ð¡ï¸','â¡','ð®','ð','ð¦¸','ð','ð¡ï¸'].map((a,i)=>`<div class="av-opt${i===0?' sel':''}" onclick="pickAv(this,'${a}')">${a}</div>`).join('')}
+          ${['Ã¢ÂÂÃ¯Â¸Â','Ã°ÂÂ§Â','Ã°ÂÂÂ¹','Ã°ÂÂÂ¡Ã¯Â¸Â','Ã¢ÂÂ¡','Ã°ÂÂÂ®','Ã°ÂÂÂ','Ã°ÂÂ¦Â¸','Ã°ÂÂÂ','Ã°ÂÂÂ¡Ã¯Â¸Â'].map((a,i)=>`<div class="av-opt${i===0?' sel':''}" onclick="pickAv(this,'${a}')">${a}</div>`).join('')}
         </div>
       </div>
       <div class="login-err" id="s-err"></div>
-      <button class="btn btn-green btn-full btn-lg" onclick="doSignup()" style="margin-top:4px">â¶ CREATE CHARACTER</button>
+      <button class="btn btn-green btn-full btn-lg" onclick="doSignup()" style="margin-top:4px">Ã¢ÂÂ¶ CREATE CHARACTER</button>
     </div>
 
     <div class="login-divider">or</div>
@@ -623,14 +647,14 @@ input::placeholder{color:var(--muted)}
     <div class="page" id="page-gm"><div class="page-content" id="gm-c"></div></div>
   </div>
   <div class="bottom-nav" id="bottom-nav">
-    <button class="nav-btn active" id="nb-home" onclick="go('home')"><span class="ni">ð¡</span><span class="nl">Feed</span></button>
-    <button class="nav-btn" id="nb-quests" onclick="go('quests')"><span class="ni">âï¸</span><span class="nl">Quests</span></button>
-    <button class="nav-btn" id="nb-profile" onclick="go('profile')"><span class="ni">ð§</span><span class="nl">Profile</span></button>
-    <button class="nav-btn" id="nb-lb" onclick="go('lb')"><span class="ni">ð</span><span class="nl">Ranks</span></button>
-    <button class="nav-btn" id="nb-missions" onclick="go('missions')"><span class="ni">ð¯</span><span class="nl">Missions</span></button>
-    <button class="nav-btn" id="nb-daily" onclick="go('daily')"><span class="ni">ð</span><span class="nl">Daily</span></button>
-    <button class="nav-btn" id="nb-arena" onclick="go('arena')"><span class="ni">â¡</span><span class="nl">Arena</span></button>
-    <button class="nav-btn" id="nb-gm" onclick="go('gm')" style="display:none"><span class="ni">ðï¸</span><span class="nl">GM</span></button>
+    <button class="nav-btn active" id="nb-home" onclick="go('home')"><span class="ni">Ã°ÂÂÂ¡</span><span class="nl">Feed</span></button>
+    <button class="nav-btn" id="nb-quests" onclick="go('quests')"><span class="ni">Ã¢ÂÂÃ¯Â¸Â</span><span class="nl">Quests</span></button>
+    <button class="nav-btn" id="nb-profile" onclick="go('profile')"><span class="ni">Ã°ÂÂ§Â</span><span class="nl">Profile</span></button>
+    <button class="nav-btn" id="nb-lb" onclick="go('lb')"><span class="ni">Ã°ÂÂÂ</span><span class="nl">Ranks</span></button>
+    <button class="nav-btn" id="nb-missions" onclick="go('missions')"><span class="ni">Ã°ÂÂÂ¯</span><span class="nl">Missions</span></button>
+    <button class="nav-btn" id="nb-daily" onclick="go('daily')"><span class="ni">Ã°ÂÂÂ</span><span class="nl">Daily</span></button>
+    <button class="nav-btn" id="nb-arena" onclick="go('arena')"><span class="ni">Ã¢ÂÂ¡</span><span class="nl">Arena</span></button>
+    <button class="nav-btn" id="nb-gm" onclick="go('gm')" style="display:none"><span class="ni">Ã°ÂÂÂÃ¯Â¸Â</span><span class="nl">GM</span></button>
   </div>
 </div>
 
@@ -660,69 +684,69 @@ let _profile = null;
 // QUEST DATA
 // ===============================================================
 const CATS=[
-  {id:'arts',name:'Arts & Creativity',icon:'ð¨',stat:'Creativity',color:'#ff6b9d',quests:['Head out to an art gallery and soak it in.','Create something with your hands.','Put something beautiful on display in your home.','Attend a live musical performance.','Sketch a new illustration from scratch.','Spend time coloring something.','Watch a musical or play live on stage.','Read a biography of an artist or designer.','Practice drawing the human face.','Catch some standup or improv comedy live.','Display art created by a local artist in your space.','Create something new inspired by another artist\'s style.','Draw something every single day for one week.']},
-  {id:'music',name:'Music',icon:'ðµ',stat:'Creativity',color:'#c084fc',quests:['Pick up a new album.','Stumble upon a band or musician you genuinely enjoy.','See an unfamiliar band or musician perform live.','Buy an album on vinyl.','Memorize every word of a song.','Read a biography of a musician you admire.','Work through a musical scale with your instrument.','Support the local scene  --  see a local indie act perform.','Blast your favorite music and sing along at full volume.','Go to a symphony performance.','Experience an opera for the first time or the hundredth.','Write and finish an original song.','Build a music loop from scratch.','Put an original song online for the world to hear.','DJ at a live event  --  party, club, or show.','Build a track that samples another song.','Play a full set at a local venue.']},
-  {id:'photography',name:'Photography',icon:'ð·',stat:'Creativity',color:'#60a5fa',quests:['Photograph striking architecture in your city.','Shoot a series of photos entirely in black and white.','Have some of your favorite photos printed.','Capture the energy of a concert through your lens.','Photograph a waterfall.','Take a single great photo today.','Photograph a pet in its element.','Capture a sunset or sunrise.','Set up your tripod and use it for a shoot.','Try shooting with a monopod.','Photograph the northern lights.','Nail a well-exposed shot in low-light conditions.','Capture lightning mid-strike in a photo.','Head outdoors and photograph nature.','Photograph the Milky Way on a clear night.','Take one photo every day for an entire month.','Sell one of your photographs.']},
-  {id:'writing',name:'Writing',icon:'âï¸',stat:'Intellect',color:'#34d399',quests:['Write a poem from the heart.','Improve a Wikipedia article with accurate information.','Research and write an informative article or report.','Publish a blog post on any topic.','Write a thoughtful review of a film you\'ve seen.','Review a music album you\'ve been listening to.','Write a review for a video game you\'ve played.','Write an honest review of a book you\'ve finished.','Create a how-to guide or set of instructions for something.','Write and finish a short story.','Share your thoughts in a Reddit post.','Write the lyrics to an original song.','Write a full chapter of your novel.','Draft a script for a video or film.','Complete writing a full-length novel.','Self-publish a book through any platform.','Get a book published through a traditional publisher.']},
-  {id:'career',name:'Career & Finances',icon:'ð¼',stat:'Intellect',color:'#fbbf24',quests:['Polish and improve your resume.','Move 10% of your paycheck directly into savings.','Declutter your email inbox or social media presence.','Switch at least one bill to paperless billing.','Pay all your monthly bills before they\'re due.','Budget your latest paycheck from start to finish.','Write down your short-term and long-term goals.','List five companies you\'d genuinely love to work for someday.','Request a letter of recommendation from someone who knows your work.','Negotiate for something  --  outcome doesn\'t matter, the practice does.','Clear the balance on your credit card.','Put money into an investment or retirement account.','Pull up and review your credit score.','Update your LinkedIn or online CV for potential employers.','Build or refresh a personal website showcasing your skills.','Start a new job.','File your own income taxes.','Walk away from a job that was making you unhappy.','Ask for a raise  --  whether it happens or not.','Pay off a loan or debt in full.','Make a trade in the stock market.','Launch a business.']},
-  {id:'fitness',name:'Fitness & Health',icon:'ðª',stat:'Strength',color:'#f87171',quests:['Wake up when your alarm goes off  --  no snooze button.','Get to bed unusually early for a full night\'s rest.','Move your body for at least 15 minutes.','Stay conscious of your posture for an entire day.','Go through a full stretching routine.','Get outside and go for a walk.','Floss every day for one full week.','Drink eight glasses of water today.','Exercise immediately after getting out of bed.','Go for a bike ride.','Walk or cycle to school or work instead of driving.','Resist a bad habit for one full day.','Try yoga, aerobics, or another movement class.','Find a workout partner and exercise together.','Set your alarm early and get up with the sun.','Do a set of situps.','Go for a run or a jog outside.','Hit the pool and go swimming.','Book and attend a check-up with your doctor.','Drop and do a set of pushups.','Take on a 30-day fitness challenge.','Do as many consecutive pushups as you can manage.','Lift the heaviest weight you can safely handle for ten reps.','Practice focused breathing exercises.','Resist a bad habit for one full week.','Beat one of your personal fitness records.','Complete a full workout at the gym.','Visit the dentist for a check-up.','Book a session with a physiotherapist.','Try a form of exercise you\'ve never done before.','Commit to quitting smoking  --  or celebrate never having started.','Hit your ideal weight goal.','Learn how to do a handstand.','Sign up for and complete Tough Mudder.','Train for and participate in the Chicago Marathon.','Work with a certified personal trainer.','Reach your goal BMI through consistent effort.']},
-  {id:'sports',name:'Sports',icon:'â½',stat:'Agility',color:'#38bdf8',quests:['Get out on the badminton court.','Rally on the tennis court.','Join an organized team.','Play a game of volleyball.','Step up to bat in baseball or softball.','Show up for a team practice session.','Play soccer or football with others.','Join a game of ultimate frisbee.','Hit the basketball court.','Play a game of American football.','Lace up and play hockey.','Get on the lacrosse field.','Try Australian rules football.','Play a game of rugby.','Compete in a tournament.','Win first place in a championship.']},
-  {id:'food',name:'Food & Cooking',icon:'ð³',stat:'Vitality',color:'#fb923c',quests:['Choose a healthy snack over junk food.','Add a new recipe to your personal collection.','Add a healthy side to your next meal.','Hit five servings of fruits and vegetables today.','Cook yourself a genuinely healthy meal.','Learn to cook or bake something you\'ve never made before.','Plan out your meals for the coming week.','Cook a meal for your family or parents.','Try a food you\'ve never eaten before.','Log everything you eat for one full week.','Make homemade pizza from scratch.','Explore a fruit or vegetable that\'s new to you.','Sample a drink you\'ve never had.','Sit down to a proper breakfast.','Go a full month without adding extra salt to any meal.','Find and buy from a locally sourced restaurant or grocer.','Make your own ice cream at home.','Brew or steep something warm to drink.','Avoid frozen dinners completely for one full month.','Skip fast food entirely for one month.','Bake something from scratch.','Blend your own smoothie at home.','Bake a loaf of bread without a mix.','Plate yourself a genuinely delicious meal.','Invent a new recipe and share it with someone.','Pack lunch from home instead of buying it.','Cook something using vegetables you actually grew.','Commit to eating vegetarian for one full month.']},
-  {id:'household',name:'Household & DIY',icon:'ð ',stat:'Vitality',color:'#a78bfa',quests:['Swap an old incandescent bulb for an energy-efficient one.','Spend ten focused minutes tidying up.','Choose a reusable over a disposable item.','Bring a new indoor plant home and keep it alive.','Knock out a round of household chores or deep cleaning.','Turn the heat or A/C down a notch to save energy.','Find a clever new purpose for something old.','Research carefully before making your next purchase.','Tackle the hardest task sitting on your to-do list.','Hang something beautiful on the wall at home.','Properly recycle an old electronic device.','Change habits to meaningfully reduce your electricity usage.','Hang your laundry to air dry instead of using the dryer.','Do a full load of laundry start to finish.','Make a new craft or decoration for your home.','Watch someone genuinely enjoy something you made.','Build a birdhouse or a bird feeder.','Learn the basics of sewing.','Fix something around the house that\'s been broken.','When replacing something, recycle instead of just buying new.','Move into a new apartment.','Finish a sewing, knitting, or crochet project.','Sew or knit a piece of clothing.','Build and plant a terrarium.','Get yourself a new vehicle.','Build a proper treehouse a kid would love.','Buy and move into your own home.']},
-  {id:'humanity',name:'Humanity',icon:'â¤ï¸',stat:'Charisma',color:'#f472b6',quests:['Offer help to someone who clearly needs it.','Bring a reusable bag when you shop.','Choose fairtrade tea or coffee next time.','Drop your spare change into a charity box.','Donate food to a food bank, shelter, or charity.','Pass along clothes that no longer fit you.','Compliment a stranger out of the blue.','Support a local business instead of a big chain.','Tell someone they\'re doing a great job.','Give away, donate, or sell things you no longer need.','Sign up to be an organ donor.','Step up to babysit when you\'re needed.','Do something unexpectedly kind for a stranger.','Help someone anonymously without them ever knowing it was you.','Give your time or money to a homeless shelter.','Make a genuinely eco-friendly choice.','Perform a random act of kindness today.','Make a donation to a cause you care about.','Donate blood, plasma, or platelets.','Get certified in CPR or basic first aid.','Volunteer your time for a cause.','Donate money to help children in poverty.','Walk or run in an event that raises money for charity.','Give a pet in need a permanent home.','Organize a charity fundraiser.']},
-  {id:'mental',name:'Mental',icon:'ð§ ',stat:'Wisdom',color:'#818cf8',quests:['Spend real time doing something that relaxes you.','Put genuine effort into your appearance today.','Write out everything you need to accomplish today.','Rise early and use the morning productively.','Write an entry in your personal diary or journal.','Put the phone and computer away for a while.','Catch yourself wasting time and redirect it.','Write down a list of things you\'re looking forward to.','Spend a whole day acting more confident than you feel.','Ask someone for their honest input or advice.','Work through a stress-reduction or relaxation exercise.','Build a schedule for your day or week and follow it.','Try something without letting fear of failure hold you back.','Stop the inner critic before it gains momentum.','Forgive yourself for a mistake you\'ve been holding onto.','Treat yourself with the same kindness you\'d give a friend.','Do something today that genuinely makes you happy.','Acknowledge a personal fault and take one step to improve it.','Spend a day intentionally spreading good energy.','Recognize and feel grateful for what someone\'s done for you.','Write freely in your journal without censoring yourself.','Ask for what you want without the fear of being told no.','Make a mistake  --  and actually learn from it.','Give yourself permission to laugh out loud today.','Make a deliberate change to your normal daily routine.','Do something you\'d normally talk yourself out of.','Put your mental health at the top of today\'s agenda.','Stand up for yourself when someone has wronged you.','Do something without worrying what anyone else will think.','Face a fear and move through it.','Apologize or make things right with someone you\'ve wronged.','Catch yourself mid-excuse and stop it cold.','Power down your phone for the entire day.','Go an entire day without a complaint or negative comment.','Be honest with someone rather than letting a grudge fester.','Take one small step outside your comfort zone.','Do that thing you\'ve been putting off far too long.','Stretch into genuinely unfamiliar territory.','Call a mental health helpline to talk something through.','Make an appointment with a mental health professional.']},
-  {id:'outdoors',name:'Outdoors',icon:'ð²',stat:'Agility',color:'#4ade80',quests:['Get yourself outside and spend real time in the fresh air.','Pick up litter you find outside  --  nobody asked you to.','Explore a trail or walking path near where you live.','Spend an afternoon at a local park or beach.','Water your indoor and balcony plants.','Do some actual gardening or yard work.','Plant a tree.','Fly a kite.','Start growing vegetables in a garden plot.','Ride your bike along a dedicated trail or path.','Spend a week at a summer camp.','Pack your gear and go camping.','Spend a winter night in a cozy cabin in the woods.','Get out on the water and go boating.','Cook a full meal over an open campfire.','Drop a line and go fishing.','Plant flowers that actually belong in your local ecosystem.','Sleep outside under the open sky with no tent.','Try your hand at archery.','Lace up and go ice skating.','Build and light a proper campfire.','Get five or more trees planted  --  by your own hands.','Saddle up and go horseback riding.','Explore a cave system  --  spelunking counts.','Camp outdoors through a winter night.','Go cliff climbing or abseiling.','Try hang-gliding.','Take on white water rafting.','Scale a frozen waterfall  --  go ice climbing.','Gear up and go scuba diving.','Climb an actual mountain.']},
-  {id:'reading',name:'Reading',icon:'ð',stat:'Wisdom',color:'#f59e0b',quests:['Read at least one full chapter of a book today.','Read about someone who genuinely inspires you.','Walk into a library and spend time there.','Borrow a book from someone you know.','Finish a biography of someone you admire.','Pass a book on by lending it to someone.','Read a book cover to cover.','Donate books to a library or goodwill.','Listen to a full audiobook.']},
-  {id:'books',name:'Top 150 Books',icon:'ð',stat:'Wisdom',color:'#e879f9',quests:["Alice's Adventures in Wonderland  --  Lewis Carroll","Lord of the Flies  --  William Golding","The Call of the Wild  --  Jack London","The Lion, The Witch and the Wardrobe  --  C.S. Lewis","Dr Jekyll and Mr Hyde  --  Robert Louis Stevenson","The Time Machine  --  H.G. Wells","The Giver  --  Lois Lowry","To Kill a Mockingbird  --  Harper Lee","Animal Farm  --  George Orwell","Heart of Darkness  --  Joseph Conrad","Of Mice and Men  --  John Steinbeck","The Old Man and the Sea  --  Ernest Hemingway","The Postman Always Rings Twice  --  James M. Cain","The Stranger  --  Albert Camus","Candide  --  Voltaire","The Great Gatsby  --  F. Scott Fitzgerald","The Invisible Man  --  H.G. Wells","The Art of War  --  Sun Tzu","Harry Potter and the Philosopher's Stone  --  J.K. Rowling","The Golden Compass  --  Philip Pullman","Tom Sawyer  --  Mark Twain","Leaves of Grass  --  Walt Whitman","The Outsiders  --  S.E. Hinton","The Alchemist  --  Paulo Coelho","The War of the Worlds  --  H.G. Wells","Siddhartha  --  Hermann Hesse","Cannery Row  --  John Steinbeck","The Hound of the Baskervilles  --  Arthur Conan Doyle","Treasure Island  --  Robert Louis Stevenson","The Day of The Locust  --  Nathanael West","The Five People You Meet in Heaven  --  Mitch Albom","A Clockwork Orange  --  Anthony Burgess","Fear and Loathing in Las Vegas  --  Hunter S. Thompson","The Metamorphosis  --  Franz Kafka","Frankenstein  --  Mary Shelley","Tuesdays with Morrie  --  Mitch Albom","At the Mountains of Madness  --  H.P. Lovecraft","Fight Club  --  Chuck Palahniuk","The Maltese Falcon  --  Dashiell Hammett","Slaughterhouse-Five  --  Kurt Vonnegut","The Scarlet Letter  --  Nathaniel Hawthorne","A Brief History of Time  --  Stephen Hawking","Mrs Dalloway  --  Virginia Woolf","Fahrenheit 451  --  Ray Bradbury","The Big Sleep  --  Raymond Chandler","The Picture of Dorian Gray  --  Oscar Wilde","The Wind in the Willows  --  Kenneth Grahame","The Catcher in the Rye  --  J.D. Salinger","Childhood's End  --  Arthur C Clarke","Notes From Underground  --  Fyodor Dostoyevsky","The Hobbit  --  J.R.R. Tolkien","Gulliver's Travels  --  Jonathan Swift","As I Lay Dying  --  William Faulkner","Brave New World  --  Aldous Huxley","Starship Troopers  --  Robert Heinlein","The Sun Also Rises  --  Ernest Hemingway","1984  --  George Orwell","Do Androids Dream of Electric Sheep?  --  Philip K. Dick","The Hitchhiker's Guide to the Galaxy  --  Douglas Adams","Cat's Cradle  --  Kurt Vonnegut","Naked Lunch  --  William S. Burroughs","Something Wicked This Way Comes  --  Ray Bradbury","A Farewell to Arms  --  Ernest Hemingway","Darkness at Noon  --  Arthur Koestler","The Moon is a Harsh Mistress  --  Robert Heinlein","The Road  --  Cormac McCarthy","How to Win Friends and Influence People  --  Dale Carnegie","Robinson Crusoe  --  Daniel Defoe","To The Lighthouse  --  Virginia Woolf","Breakfast of Champions  --  Kurt Vonnegut","The Trial  --  Franz Kafka","Trustee From The Toolroom  --  Nevil Shute","Flowers For Algernon  --  Daniel Keyes","Neuromancer  --  William Gibson","Adventures of Huckleberry Finn  --  Mark Twain","A Portrait of the Artist as a Young Man  --  James Joyce","Wuthering Heights  --  Emily Bronte","On The Beach  --  Nevil Shute","On the Road  --  Jack Kerouac","One Flew Over the Cuckoo's Nest  --  Ken Kesey","Beloved  --  Toni Morrison","Ender's Game  --  Orson Scott Card","In Cold Blood  --  Truman Capote","Bluebeard  --  Kurt Vonnegut","Interview with the Vampire  --  Anne Rice","Life of Pi  --  Yann Martel","The Jungle  --  Upton Sinclair","The Sound and the Fury  --  William Faulkner","Dracula  --  Bram Stoker","On the Origin of Species  --  Charles Darwin","The Fellowship of The Ring  --  J.R.R. Tolkien","A Passage to India  --  E.M. Forster","Pride and Prejudice  --  Jane Austen","The Odyssey  --  Homer","The Swiss Family Robinson  --  Johann D. Wyss","The Iliad  --  Homer","Cosmos  --  Carl Sagan","Hamlet  --  William Shakespeare","A Tale Of Two Cities  --  Charles Dickens","Lolita  --  Vladimir Nabokov","Memoirs of a Geisha  --  Arthur Golden","Dune  --  Frank Herbert","The Stand  --  Stephen King","The Unbearable Lightness of Being  --  Milan Kundera","American Psycho  --  Bret Easton Ellis","Little Women  --  Louisa May Alcott","The Grapes of Wrath  --  John Steinbeck","Crime and Punishment  --  Fyodor Dostoevsky","Finnegans Wake  --  James Joyce","I, Claudius  --  Robert Graves","The Omnivore's Dilemma  --  Michael Pollan","A Hundred Years of Solitude  --  Gabriel Garcia Marquez","Guns, Germs, and Steel  --  Jared Diamond","Zen and The Art of Motorcycle Maintenance  --  R. Pirsig","Emma  --  Jane Austen","For Whom the Bell Tolls  --  Ernest Hemingway","Catch-22  --  Joseph Heller","The Bourne Identity  --  Robert Ludlum","Lies My Teacher Told Me  --  James Loewen","Snow Crash  --  Neal Stephenson","Stranger in a Strange Land  --  Robert A. Heinlein","Nostromo  --  Joseph Conrad","Midnight's Children  --  Salman Rushdie","East of Eden  --  John Steinbeck","Moby-Dick  --  Herman Melville","Great Expectations  --  Charles Dickens","Collapse  --  Jared Diamond","A Short History of Nearly Everything  --  Bill Bryson","The Divine Comedy  --  Dante Alighieri","Bonfire of the Vanities  --  Tom Wolfe","The Three Musketeers  --  Alexandre Dumas","V.  --  Thomas Pynchon","The World According to Garp  --  John Irving","American Gods  --  Neil Gaiman","The Foundation Saga  --  Isaac Asimov","Don Quixote  --  Miguel de Cervantes","The Complete Tales and Poems of Edgar Allan Poe","The Naked and the Dead  --  Norman Mailer","Ulysses  --  James Joyce","The Brothers Karamazov  --  Fyodor Dostoevsky","House of Leaves  --  Mark Z. Danielewski","Gravity's Rainbow  --  Thomas Pynchon","The Count of Monte Cristo  --  Alexandre Dumas","Atlas Shrugged  --  Ayn Rand","It  --  Stephen King","Les Miserables  --  Victor Hugo","War and Peace  --  Leo Tolstoy","A Game of Thrones  --  George RR Martin","Infinite Jest  --  David Foster Wallace","Gone With the Wind  --  Margaret Mitchell"]},
-  {id:'school',name:'School & Learning',icon:'ð',stat:'Intellect',color:'#2dd4bf',quests:['Watch a documentary on something that interests you.','Read an in-depth article on a topic you know little about.','Watch an instructional video and actually learn from it.','Catch up on the news  --  read or watch it.','Study the beliefs or history of a different culture or religion.','Research a topic you\'ve been curious about.','Visit a museum and spend real time there.','Submit your assignment or project before the deadline.','Take a guided tour of somewhere interesting.','Go deeper on a subject than you actually need to.','Learn one new word per day for a full week.','Get your driver\'s license.','Graduate from high school.','Show up and attend class.','Go to a lecture or public talk.','Give a presentation or speech in front of others.','Level up your coding or programming skills.','Take part in a real debate.','Improve your ability to communicate in another language.','Learn to communicate in sign language.','Graduate from college or university.']},
-  {id:'social',name:'Social',icon:'ð¤',stat:'Charisma',color:'#f97316',quests:['Send someone a birthday or greeting card.','Call a friend or family member just to catch up.','Go out with friends for a proper night out.','Introduce yourself to someone new.','Spend a day with friends or family  --  no agenda.','Sit down and write a genuine thank-you note.','Tell someone a great story  --  true or fictional.','Go out of your way to make someone\'s day better.','Drop a holiday card in the mail.','Strike up a real conversation with a stranger.','Reconnect with someone you\'ve lost touch with.','Reach out via text, Snap, or Discord.','Put real thought into a gift for someone you care about.','Help a friend move into their new place.','Invite someone out who you\'ve never asked before.','Handwrite a letter and actually mail it.','Write to an old teacher  --  email or letter.','Spend quality time with friends or family.','Become a regular at a neighborhood spot.','Send someone flowers.','Write to a friend who lives in another country.','Go to a social event you\'d normally skip.']},
-  {id:'travel',name:'Travel',icon:'âï¸',stat:'Wanderlust',color:'#06b6d4',quests:['Explore an unfamiliar corner of your own city or town.','Take a different route than usual just to see what\'s there.','Send a postcard to someone while you\'re traveling.','Visit a town or city you\'ve never set foot in.','Go somewhere you\'ve been wanting to visit for years.','Cross a state or provincial border on a trip.','Hike a trail inside a national park.','Stand in front of a historical site.','Build a proper travel itinerary for an upcoming trip.','Get your passport.','Set off on a road trip with no fixed destination.','Finish reading a travel book.','Watch a geyser erupt in person.','Travel specifically to see a major sporting event.','Check into a hotel or bed and breakfast.','Travel outside your home country.','Visit a historical building that belongs to a different culture.','Set foot in a country that uses an unfamiliar alphabet.','Move to a new city.','Attend a festival in a foreign country.','Film and document one of your travel adventures.','Drive across your entire country.','Throw a dart at a map and actually travel to where it lands.','Travel to a completely different continent.','Move to a new country.']},
-  {id:'destinations',name:'Destinations',icon:'ðºï¸',stat:'Wanderlust',color:'#10b981',quests:['See the Statue of Liberty.','Take in the Rocky Mountains.','Stand at the rim of the Grand Canyon.','Look up at the CN Tower in Toronto.','Witness Niagara Falls in person.','Cross the Golden Gate Bridge.','Visit Chichen Itza in Mexico.','Explore the Galapagos Islands.','Walk along the Great Wall of China.','Trek to Machu Picchu in Peru.','Stand at Stonehenge.','Make it to Easter Island.','See the Eiffel Tower in Paris.','Walk through the Colosseum in Rome.','Visit the Leaning Tower of Pisa.','Experience the Amazon Rainforest.','See the Christ the Redeemer statue in Brazil.','Visit Mt. Fuji in Japan.','See the Pyramids of Egypt in person.','Walk through the Lost City of Petra in Jordan.','Visit the Taj Mahal in India.','Explore the Australian outback.','See the temples of Angkor in Cambodia.','Lay eyes on Mt. Kilimanjaro.','Travel all the way to Antarctica.']},
-  {id:'relationships',name:'Relationships',icon:'ð',stat:'Charisma',color:'#ff6b9d',quests:['Tell your partner one specific thing you love about them.','Plan and go on a real date  --  phones away.','Say sorry and mean it after an argument.','Listen to your partner for a full conversation without interrupting.','Do something your partner loves even if it\'s not your thing.','Write your partner a handwritten note just because.','Cook a meal together from scratch.','Share something vulnerable with your partner.','Celebrate a small win your partner had this week.','Go a full day showing extra appreciation to your partner.','Do a chore your partner usually handles without being asked.','Plan a surprise for your partner  --  big or small.','Talk openly about your relationship goals.','Try a new experience together you\'ve both never done.','Watch your partner\'s all-time favorite movie with them.','Reconnect with a friend you\'ve been drifting from.','Tell someone you love them and mean it completely.','Spend one hour with your full attention on someone who matters.','Back up a friend when they really need it.','Make the first move and patch things up after a falling out.']},
-  {id:'family',name:'Family',icon:'ð¨âð©âð§âð¦',stat:'Charisma',color:'#fb923c',quests:['Call a family member you haven\'t spoken to in a while.','Cook a meal for your family.','Show up to a family event  --  even if you\'d rather skip it.','Put your phone away and be fully present with family.','Help a family member with something they\'re struggling with.','Dig into your family history and learn something new.','Create a tradition with your family  --  however small.','Send a care package to a family member far away.','Write down a memory involving a family member to preserve it.','Do something your parents or grandparents enjoy together with them.','Help an elderly family member with a task.','Plan and pull off a family gathering.','Tell a family member about a childhood memory you both share.','Teach a younger family member a skill.','Show up for a family member during a hard time.','Frame a family photo and display it.','Start a family group chat that\'s actually active.','Write a letter to a family member you\'ve been meaning to reach out to.','Get the whole family together for a game night.','Tell a parent or grandparent something you\'ve never told them.']},
-  {id:'entrepreneur',name:'Entrepreneur',icon:'ð',stat:'Intellect',color:'#fbbf24',quests:['Write down a business idea that genuinely excites you.','Research your target market for one hour.','Talk to a potential customer about a problem you\'re solving.','Register a domain for a business idea.','Build a simple landing page to test your concept.','Create a basic business plan  --  one page is enough to start.','Set a revenue goal and a deadline to hit it.','Launch a minimum viable product and share it publicly.','Get your first paying customer.','Apply for a business license or structure your entity.','Pitch your idea to someone whose opinion you respect.','Write content that provides real value to your target audience.','Learn one skill directly relevant to growing your business.','Set up a basic accounting system for your business.','Build a small audience on one social platform.','Partner or collaborate with another creator or business.','Automate one task in your business workflow.','Get your first five reviews or testimonials.','Raise your prices  --  and don\'t apologize for it.','Hit your first $1,000 in revenue from something you built.','File your first business tax return.','Hire your first freelancer or employee.','Speak about your business in front of an audience.','Attend a networking event in your industry.','Build a product that earns money while you sleep.']}
+  {id:'arts',name:'Arts & Creativity',icon:'Ã°ÂÂÂ¨',stat:'Creativity',color:'#ff6b9d',quests:['Head out to an art gallery and soak it in.','Create something with your hands.','Put something beautiful on display in your home.','Attend a live musical performance.','Sketch a new illustration from scratch.','Spend time coloring something.','Watch a musical or play live on stage.','Read a biography of an artist or designer.','Practice drawing the human face.','Catch some standup or improv comedy live.','Display art created by a local artist in your space.','Create something new inspired by another artist\'s style.','Draw something every single day for one week.']},
+  {id:'music',name:'Music',icon:'Ã°ÂÂÂµ',stat:'Creativity',color:'#c084fc',quests:['Pick up a new album.','Stumble upon a band or musician you genuinely enjoy.','See an unfamiliar band or musician perform live.','Buy an album on vinyl.','Memorize every word of a song.','Read a biography of a musician you admire.','Work through a musical scale with your instrument.','Support the local scene  --  see a local indie act perform.','Blast your favorite music and sing along at full volume.','Go to a symphony performance.','Experience an opera for the first time or the hundredth.','Write and finish an original song.','Build a music loop from scratch.','Put an original song online for the world to hear.','DJ at a live event  --  party, club, or show.','Build a track that samples another song.','Play a full set at a local venue.']},
+  {id:'photography',name:'Photography',icon:'Ã°ÂÂÂ·',stat:'Creativity',color:'#60a5fa',quests:['Photograph striking architecture in your city.','Shoot a series of photos entirely in black and white.','Have some of your favorite photos printed.','Capture the energy of a concert through your lens.','Photograph a waterfall.','Take a single great photo today.','Photograph a pet in its element.','Capture a sunset or sunrise.','Set up your tripod and use it for a shoot.','Try shooting with a monopod.','Photograph the northern lights.','Nail a well-exposed shot in low-light conditions.','Capture lightning mid-strike in a photo.','Head outdoors and photograph nature.','Photograph the Milky Way on a clear night.','Take one photo every day for an entire month.','Sell one of your photographs.']},
+  {id:'writing',name:'Writing',icon:'Ã¢ÂÂÃ¯Â¸Â',stat:'Intellect',color:'#34d399',quests:['Write a poem from the heart.','Improve a Wikipedia article with accurate information.','Research and write an informative article or report.','Publish a blog post on any topic.','Write a thoughtful review of a film you\'ve seen.','Review a music album you\'ve been listening to.','Write a review for a video game you\'ve played.','Write an honest review of a book you\'ve finished.','Create a how-to guide or set of instructions for something.','Write and finish a short story.','Share your thoughts in a Reddit post.','Write the lyrics to an original song.','Write a full chapter of your novel.','Draft a script for a video or film.','Complete writing a full-length novel.','Self-publish a book through any platform.','Get a book published through a traditional publisher.']},
+  {id:'career',name:'Career & Finances',icon:'Ã°ÂÂÂ¼',stat:'Intellect',color:'#fbbf24',quests:['Polish and improve your resume.','Move 10% of your paycheck directly into savings.','Declutter your email inbox or social media presence.','Switch at least one bill to paperless billing.','Pay all your monthly bills before they\'re due.','Budget your latest paycheck from start to finish.','Write down your short-term and long-term goals.','List five companies you\'d genuinely love to work for someday.','Request a letter of recommendation from someone who knows your work.','Negotiate for something  --  outcome doesn\'t matter, the practice does.','Clear the balance on your credit card.','Put money into an investment or retirement account.','Pull up and review your credit score.','Update your LinkedIn or online CV for potential employers.','Build or refresh a personal website showcasing your skills.','Start a new job.','File your own income taxes.','Walk away from a job that was making you unhappy.','Ask for a raise  --  whether it happens or not.','Pay off a loan or debt in full.','Make a trade in the stock market.','Launch a business.']},
+  {id:'fitness',name:'Fitness & Health',icon:'Ã°ÂÂÂª',stat:'Strength',color:'#f87171',quests:['Wake up when your alarm goes off  --  no snooze button.','Get to bed unusually early for a full night\'s rest.','Move your body for at least 15 minutes.','Stay conscious of your posture for an entire day.','Go through a full stretching routine.','Get outside and go for a walk.','Floss every day for one full week.','Drink eight glasses of water today.','Exercise immediately after getting out of bed.','Go for a bike ride.','Walk or cycle to school or work instead of driving.','Resist a bad habit for one full day.','Try yoga, aerobics, or another movement class.','Find a workout partner and exercise together.','Set your alarm early and get up with the sun.','Do a set of situps.','Go for a run or a jog outside.','Hit the pool and go swimming.','Book and attend a check-up with your doctor.','Drop and do a set of pushups.','Take on a 30-day fitness challenge.','Do as many consecutive pushups as you can manage.','Lift the heaviest weight you can safely handle for ten reps.','Practice focused breathing exercises.','Resist a bad habit for one full week.','Beat one of your personal fitness records.','Complete a full workout at the gym.','Visit the dentist for a check-up.','Book a session with a physiotherapist.','Try a form of exercise you\'ve never done before.','Commit to quitting smoking  --  or celebrate never having started.','Hit your ideal weight goal.','Learn how to do a handstand.','Sign up for and complete Tough Mudder.','Train for and participate in the Chicago Marathon.','Work with a certified personal trainer.','Reach your goal BMI through consistent effort.']},
+  {id:'sports',name:'Sports',icon:'Ã¢ÂÂ½',stat:'Agility',color:'#38bdf8',quests:['Get out on the badminton court.','Rally on the tennis court.','Join an organized team.','Play a game of volleyball.','Step up to bat in baseball or softball.','Show up for a team practice session.','Play soccer or football with others.','Join a game of ultimate frisbee.','Hit the basketball court.','Play a game of American football.','Lace up and play hockey.','Get on the lacrosse field.','Try Australian rules football.','Play a game of rugby.','Compete in a tournament.','Win first place in a championship.']},
+  {id:'food',name:'Food & Cooking',icon:'Ã°ÂÂÂ³',stat:'Vitality',color:'#fb923c',quests:['Choose a healthy snack over junk food.','Add a new recipe to your personal collection.','Add a healthy side to your next meal.','Hit five servings of fruits and vegetables today.','Cook yourself a genuinely healthy meal.','Learn to cook or bake something you\'ve never made before.','Plan out your meals for the coming week.','Cook a meal for your family or parents.','Try a food you\'ve never eaten before.','Log everything you eat for one full week.','Make homemade pizza from scratch.','Explore a fruit or vegetable that\'s new to you.','Sample a drink you\'ve never had.','Sit down to a proper breakfast.','Go a full month without adding extra salt to any meal.','Find and buy from a locally sourced restaurant or grocer.','Make your own ice cream at home.','Brew or steep something warm to drink.','Avoid frozen dinners completely for one full month.','Skip fast food entirely for one month.','Bake something from scratch.','Blend your own smoothie at home.','Bake a loaf of bread without a mix.','Plate yourself a genuinely delicious meal.','Invent a new recipe and share it with someone.','Pack lunch from home instead of buying it.','Cook something using vegetables you actually grew.','Commit to eating vegetarian for one full month.']},
+  {id:'household',name:'Household & DIY',icon:'Ã°ÂÂÂ ',stat:'Vitality',color:'#a78bfa',quests:['Swap an old incandescent bulb for an energy-efficient one.','Spend ten focused minutes tidying up.','Choose a reusable over a disposable item.','Bring a new indoor plant home and keep it alive.','Knock out a round of household chores or deep cleaning.','Turn the heat or A/C down a notch to save energy.','Find a clever new purpose for something old.','Research carefully before making your next purchase.','Tackle the hardest task sitting on your to-do list.','Hang something beautiful on the wall at home.','Properly recycle an old electronic device.','Change habits to meaningfully reduce your electricity usage.','Hang your laundry to air dry instead of using the dryer.','Do a full load of laundry start to finish.','Make a new craft or decoration for your home.','Watch someone genuinely enjoy something you made.','Build a birdhouse or a bird feeder.','Learn the basics of sewing.','Fix something around the house that\'s been broken.','When replacing something, recycle instead of just buying new.','Move into a new apartment.','Finish a sewing, knitting, or crochet project.','Sew or knit a piece of clothing.','Build and plant a terrarium.','Get yourself a new vehicle.','Build a proper treehouse a kid would love.','Buy and move into your own home.']},
+  {id:'humanity',name:'Humanity',icon:'Ã¢ÂÂ¤Ã¯Â¸Â',stat:'Charisma',color:'#f472b6',quests:['Offer help to someone who clearly needs it.','Bring a reusable bag when you shop.','Choose fairtrade tea or coffee next time.','Drop your spare change into a charity box.','Donate food to a food bank, shelter, or charity.','Pass along clothes that no longer fit you.','Compliment a stranger out of the blue.','Support a local business instead of a big chain.','Tell someone they\'re doing a great job.','Give away, donate, or sell things you no longer need.','Sign up to be an organ donor.','Step up to babysit when you\'re needed.','Do something unexpectedly kind for a stranger.','Help someone anonymously without them ever knowing it was you.','Give your time or money to a homeless shelter.','Make a genuinely eco-friendly choice.','Perform a random act of kindness today.','Make a donation to a cause you care about.','Donate blood, plasma, or platelets.','Get certified in CPR or basic first aid.','Volunteer your time for a cause.','Donate money to help children in poverty.','Walk or run in an event that raises money for charity.','Give a pet in need a permanent home.','Organize a charity fundraiser.']},
+  {id:'mental',name:'Mental',icon:'Ã°ÂÂ§Â ',stat:'Wisdom',color:'#818cf8',quests:['Spend real time doing something that relaxes you.','Put genuine effort into your appearance today.','Write out everything you need to accomplish today.','Rise early and use the morning productively.','Write an entry in your personal diary or journal.','Put the phone and computer away for a while.','Catch yourself wasting time and redirect it.','Write down a list of things you\'re looking forward to.','Spend a whole day acting more confident than you feel.','Ask someone for their honest input or advice.','Work through a stress-reduction or relaxation exercise.','Build a schedule for your day or week and follow it.','Try something without letting fear of failure hold you back.','Stop the inner critic before it gains momentum.','Forgive yourself for a mistake you\'ve been holding onto.','Treat yourself with the same kindness you\'d give a friend.','Do something today that genuinely makes you happy.','Acknowledge a personal fault and take one step to improve it.','Spend a day intentionally spreading good energy.','Recognize and feel grateful for what someone\'s done for you.','Write freely in your journal without censoring yourself.','Ask for what you want without the fear of being told no.','Make a mistake  --  and actually learn from it.','Give yourself permission to laugh out loud today.','Make a deliberate change to your normal daily routine.','Do something you\'d normally talk yourself out of.','Put your mental health at the top of today\'s agenda.','Stand up for yourself when someone has wronged you.','Do something without worrying what anyone else will think.','Face a fear and move through it.','Apologize or make things right with someone you\'ve wronged.','Catch yourself mid-excuse and stop it cold.','Power down your phone for the entire day.','Go an entire day without a complaint or negative comment.','Be honest with someone rather than letting a grudge fester.','Take one small step outside your comfort zone.','Do that thing you\'ve been putting off far too long.','Stretch into genuinely unfamiliar territory.','Call a mental health helpline to talk something through.','Make an appointment with a mental health professional.']},
+  {id:'outdoors',name:'Outdoors',icon:'Ã°ÂÂÂ²',stat:'Agility',color:'#4ade80',quests:['Get yourself outside and spend real time in the fresh air.','Pick up litter you find outside  --  nobody asked you to.','Explore a trail or walking path near where you live.','Spend an afternoon at a local park or beach.','Water your indoor and balcony plants.','Do some actual gardening or yard work.','Plant a tree.','Fly a kite.','Start growing vegetables in a garden plot.','Ride your bike along a dedicated trail or path.','Spend a week at a summer camp.','Pack your gear and go camping.','Spend a winter night in a cozy cabin in the woods.','Get out on the water and go boating.','Cook a full meal over an open campfire.','Drop a line and go fishing.','Plant flowers that actually belong in your local ecosystem.','Sleep outside under the open sky with no tent.','Try your hand at archery.','Lace up and go ice skating.','Build and light a proper campfire.','Get five or more trees planted  --  by your own hands.','Saddle up and go horseback riding.','Explore a cave system  --  spelunking counts.','Camp outdoors through a winter night.','Go cliff climbing or abseiling.','Try hang-gliding.','Take on white water rafting.','Scale a frozen waterfall  --  go ice climbing.','Gear up and go scuba diving.','Climb an actual mountain.']},
+  {id:'reading',name:'Reading',icon:'Ã°ÂÂÂ',stat:'Wisdom',color:'#f59e0b',quests:['Read at least one full chapter of a book today.','Read about someone who genuinely inspires you.','Walk into a library and spend time there.','Borrow a book from someone you know.','Finish a biography of someone you admire.','Pass a book on by lending it to someone.','Read a book cover to cover.','Donate books to a library or goodwill.','Listen to a full audiobook.']},
+  {id:'books',name:'Top 150 Books',icon:'Ã°ÂÂÂ',stat:'Wisdom',color:'#e879f9',quests:["Alice's Adventures in Wonderland  --  Lewis Carroll","Lord of the Flies  --  William Golding","The Call of the Wild  --  Jack London","The Lion, The Witch and the Wardrobe  --  C.S. Lewis","Dr Jekyll and Mr Hyde  --  Robert Louis Stevenson","The Time Machine  --  H.G. Wells","The Giver  --  Lois Lowry","To Kill a Mockingbird  --  Harper Lee","Animal Farm  --  George Orwell","Heart of Darkness  --  Joseph Conrad","Of Mice and Men  --  John Steinbeck","The Old Man and the Sea  --  Ernest Hemingway","The Postman Always Rings Twice  --  James M. Cain","The Stranger  --  Albert Camus","Candide  --  Voltaire","The Great Gatsby  --  F. Scott Fitzgerald","The Invisible Man  --  H.G. Wells","The Art of War  --  Sun Tzu","Harry Potter and the Philosopher's Stone  --  J.K. Rowling","The Golden Compass  --  Philip Pullman","Tom Sawyer  --  Mark Twain","Leaves of Grass  --  Walt Whitman","The Outsiders  --  S.E. Hinton","The Alchemist  --  Paulo Coelho","The War of the Worlds  --  H.G. Wells","Siddhartha  --  Hermann Hesse","Cannery Row  --  John Steinbeck","The Hound of the Baskervilles  --  Arthur Conan Doyle","Treasure Island  --  Robert Louis Stevenson","The Day of The Locust  --  Nathanael West","The Five People You Meet in Heaven  --  Mitch Albom","A Clockwork Orange  --  Anthony Burgess","Fear and Loathing in Las Vegas  --  Hunter S. Thompson","The Metamorphosis  --  Franz Kafka","Frankenstein  --  Mary Shelley","Tuesdays with Morrie  --  Mitch Albom","At the Mountains of Madness  --  H.P. Lovecraft","Fight Club  --  Chuck Palahniuk","The Maltese Falcon  --  Dashiell Hammett","Slaughterhouse-Five  --  Kurt Vonnegut","The Scarlet Letter  --  Nathaniel Hawthorne","A Brief History of Time  --  Stephen Hawking","Mrs Dalloway  --  Virginia Woolf","Fahrenheit 451  --  Ray Bradbury","The Big Sleep  --  Raymond Chandler","The Picture of Dorian Gray  --  Oscar Wilde","The Wind in the Willows  --  Kenneth Grahame","The Catcher in the Rye  --  J.D. Salinger","Childhood's End  --  Arthur C Clarke","Notes From Underground  --  Fyodor Dostoyevsky","The Hobbit  --  J.R.R. Tolkien","Gulliver's Travels  --  Jonathan Swift","As I Lay Dying  --  William Faulkner","Brave New World  --  Aldous Huxley","Starship Troopers  --  Robert Heinlein","The Sun Also Rises  --  Ernest Hemingway","1984  --  George Orwell","Do Androids Dream of Electric Sheep?  --  Philip K. Dick","The Hitchhiker's Guide to the Galaxy  --  Douglas Adams","Cat's Cradle  --  Kurt Vonnegut","Naked Lunch  --  William S. Burroughs","Something Wicked This Way Comes  --  Ray Bradbury","A Farewell to Arms  --  Ernest Hemingway","Darkness at Noon  --  Arthur Koestler","The Moon is a Harsh Mistress  --  Robert Heinlein","The Road  --  Cormac McCarthy","How to Win Friends and Influence People  --  Dale Carnegie","Robinson Crusoe  --  Daniel Defoe","To The Lighthouse  --  Virginia Woolf","Breakfast of Champions  --  Kurt Vonnegut","The Trial  --  Franz Kafka","Trustee From The Toolroom  --  Nevil Shute","Flowers For Algernon  --  Daniel Keyes","Neuromancer  --  William Gibson","Adventures of Huckleberry Finn  --  Mark Twain","A Portrait of the Artist as a Young Man  --  James Joyce","Wuthering Heights  --  Emily Bronte","On The Beach  --  Nevil Shute","On the Road  --  Jack Kerouac","One Flew Over the Cuckoo's Nest  --  Ken Kesey","Beloved  --  Toni Morrison","Ender's Game  --  Orson Scott Card","In Cold Blood  --  Truman Capote","Bluebeard  --  Kurt Vonnegut","Interview with the Vampire  --  Anne Rice","Life of Pi  --  Yann Martel","The Jungle  --  Upton Sinclair","The Sound and the Fury  --  William Faulkner","Dracula  --  Bram Stoker","On the Origin of Species  --  Charles Darwin","The Fellowship of The Ring  --  J.R.R. Tolkien","A Passage to India  --  E.M. Forster","Pride and Prejudice  --  Jane Austen","The Odyssey  --  Homer","The Swiss Family Robinson  --  Johann D. Wyss","The Iliad  --  Homer","Cosmos  --  Carl Sagan","Hamlet  --  William Shakespeare","A Tale Of Two Cities  --  Charles Dickens","Lolita  --  Vladimir Nabokov","Memoirs of a Geisha  --  Arthur Golden","Dune  --  Frank Herbert","The Stand  --  Stephen King","The Unbearable Lightness of Being  --  Milan Kundera","American Psycho  --  Bret Easton Ellis","Little Women  --  Louisa May Alcott","The Grapes of Wrath  --  John Steinbeck","Crime and Punishment  --  Fyodor Dostoevsky","Finnegans Wake  --  James Joyce","I, Claudius  --  Robert Graves","The Omnivore's Dilemma  --  Michael Pollan","A Hundred Years of Solitude  --  Gabriel Garcia Marquez","Guns, Germs, and Steel  --  Jared Diamond","Zen and The Art of Motorcycle Maintenance  --  R. Pirsig","Emma  --  Jane Austen","For Whom the Bell Tolls  --  Ernest Hemingway","Catch-22  --  Joseph Heller","The Bourne Identity  --  Robert Ludlum","Lies My Teacher Told Me  --  James Loewen","Snow Crash  --  Neal Stephenson","Stranger in a Strange Land  --  Robert A. Heinlein","Nostromo  --  Joseph Conrad","Midnight's Children  --  Salman Rushdie","East of Eden  --  John Steinbeck","Moby-Dick  --  Herman Melville","Great Expectations  --  Charles Dickens","Collapse  --  Jared Diamond","A Short History of Nearly Everything  --  Bill Bryson","The Divine Comedy  --  Dante Alighieri","Bonfire of the Vanities  --  Tom Wolfe","The Three Musketeers  --  Alexandre Dumas","V.  --  Thomas Pynchon","The World According to Garp  --  John Irving","American Gods  --  Neil Gaiman","The Foundation Saga  --  Isaac Asimov","Don Quixote  --  Miguel de Cervantes","The Complete Tales and Poems of Edgar Allan Poe","The Naked and the Dead  --  Norman Mailer","Ulysses  --  James Joyce","The Brothers Karamazov  --  Fyodor Dostoevsky","House of Leaves  --  Mark Z. Danielewski","Gravity's Rainbow  --  Thomas Pynchon","The Count of Monte Cristo  --  Alexandre Dumas","Atlas Shrugged  --  Ayn Rand","It  --  Stephen King","Les Miserables  --  Victor Hugo","War and Peace  --  Leo Tolstoy","A Game of Thrones  --  George RR Martin","Infinite Jest  --  David Foster Wallace","Gone With the Wind  --  Margaret Mitchell"]},
+  {id:'school',name:'School & Learning',icon:'Ã°ÂÂÂ',stat:'Intellect',color:'#2dd4bf',quests:['Watch a documentary on something that interests you.','Read an in-depth article on a topic you know little about.','Watch an instructional video and actually learn from it.','Catch up on the news  --  read or watch it.','Study the beliefs or history of a different culture or religion.','Research a topic you\'ve been curious about.','Visit a museum and spend real time there.','Submit your assignment or project before the deadline.','Take a guided tour of somewhere interesting.','Go deeper on a subject than you actually need to.','Learn one new word per day for a full week.','Get your driver\'s license.','Graduate from high school.','Show up and attend class.','Go to a lecture or public talk.','Give a presentation or speech in front of others.','Level up your coding or programming skills.','Take part in a real debate.','Improve your ability to communicate in another language.','Learn to communicate in sign language.','Graduate from college or university.']},
+  {id:'social',name:'Social',icon:'Ã°ÂÂ¤Â',stat:'Charisma',color:'#f97316',quests:['Send someone a birthday or greeting card.','Call a friend or family member just to catch up.','Go out with friends for a proper night out.','Introduce yourself to someone new.','Spend a day with friends or family  --  no agenda.','Sit down and write a genuine thank-you note.','Tell someone a great story  --  true or fictional.','Go out of your way to make someone\'s day better.','Drop a holiday card in the mail.','Strike up a real conversation with a stranger.','Reconnect with someone you\'ve lost touch with.','Reach out via text, Snap, or Discord.','Put real thought into a gift for someone you care about.','Help a friend move into their new place.','Invite someone out who you\'ve never asked before.','Handwrite a letter and actually mail it.','Write to an old teacher  --  email or letter.','Spend quality time with friends or family.','Become a regular at a neighborhood spot.','Send someone flowers.','Write to a friend who lives in another country.','Go to a social event you\'d normally skip.']},
+  {id:'travel',name:'Travel',icon:'Ã¢ÂÂÃ¯Â¸Â',stat:'Wanderlust',color:'#06b6d4',quests:['Explore an unfamiliar corner of your own city or town.','Take a different route than usual just to see what\'s there.','Send a postcard to someone while you\'re traveling.','Visit a town or city you\'ve never set foot in.','Go somewhere you\'ve been wanting to visit for years.','Cross a state or provincial border on a trip.','Hike a trail inside a national park.','Stand in front of a historical site.','Build a proper travel itinerary for an upcoming trip.','Get your passport.','Set off on a road trip with no fixed destination.','Finish reading a travel book.','Watch a geyser erupt in person.','Travel specifically to see a major sporting event.','Check into a hotel or bed and breakfast.','Travel outside your home country.','Visit a historical building that belongs to a different culture.','Set foot in a country that uses an unfamiliar alphabet.','Move to a new city.','Attend a festival in a foreign country.','Film and document one of your travel adventures.','Drive across your entire country.','Throw a dart at a map and actually travel to where it lands.','Travel to a completely different continent.','Move to a new country.']},
+  {id:'destinations',name:'Destinations',icon:'Ã°ÂÂÂºÃ¯Â¸Â',stat:'Wanderlust',color:'#10b981',quests:['See the Statue of Liberty.','Take in the Rocky Mountains.','Stand at the rim of the Grand Canyon.','Look up at the CN Tower in Toronto.','Witness Niagara Falls in person.','Cross the Golden Gate Bridge.','Visit Chichen Itza in Mexico.','Explore the Galapagos Islands.','Walk along the Great Wall of China.','Trek to Machu Picchu in Peru.','Stand at Stonehenge.','Make it to Easter Island.','See the Eiffel Tower in Paris.','Walk through the Colosseum in Rome.','Visit the Leaning Tower of Pisa.','Experience the Amazon Rainforest.','See the Christ the Redeemer statue in Brazil.','Visit Mt. Fuji in Japan.','See the Pyramids of Egypt in person.','Walk through the Lost City of Petra in Jordan.','Visit the Taj Mahal in India.','Explore the Australian outback.','See the temples of Angkor in Cambodia.','Lay eyes on Mt. Kilimanjaro.','Travel all the way to Antarctica.']},
+  {id:'relationships',name:'Relationships',icon:'Ã°ÂÂÂ',stat:'Charisma',color:'#ff6b9d',quests:['Tell your partner one specific thing you love about them.','Plan and go on a real date  --  phones away.','Say sorry and mean it after an argument.','Listen to your partner for a full conversation without interrupting.','Do something your partner loves even if it\'s not your thing.','Write your partner a handwritten note just because.','Cook a meal together from scratch.','Share something vulnerable with your partner.','Celebrate a small win your partner had this week.','Go a full day showing extra appreciation to your partner.','Do a chore your partner usually handles without being asked.','Plan a surprise for your partner  --  big or small.','Talk openly about your relationship goals.','Try a new experience together you\'ve both never done.','Watch your partner\'s all-time favorite movie with them.','Reconnect with a friend you\'ve been drifting from.','Tell someone you love them and mean it completely.','Spend one hour with your full attention on someone who matters.','Back up a friend when they really need it.','Make the first move and patch things up after a falling out.']},
+  {id:'family',name:'Family',icon:'Ã°ÂÂÂ¨Ã¢ÂÂÃ°ÂÂÂ©Ã¢ÂÂÃ°ÂÂÂ§Ã¢ÂÂÃ°ÂÂÂ¦',stat:'Charisma',color:'#fb923c',quests:['Call a family member you haven\'t spoken to in a while.','Cook a meal for your family.','Show up to a family event  --  even if you\'d rather skip it.','Put your phone away and be fully present with family.','Help a family member with something they\'re struggling with.','Dig into your family history and learn something new.','Create a tradition with your family  --  however small.','Send a care package to a family member far away.','Write down a memory involving a family member to preserve it.','Do something your parents or grandparents enjoy together with them.','Help an elderly family member with a task.','Plan and pull off a family gathering.','Tell a family member about a childhood memory you both share.','Teach a younger family member a skill.','Show up for a family member during a hard time.','Frame a family photo and display it.','Start a family group chat that\'s actually active.','Write a letter to a family member you\'ve been meaning to reach out to.','Get the whole family together for a game night.','Tell a parent or grandparent something you\'ve never told them.']},
+  {id:'entrepreneur',name:'Entrepreneur',icon:'Ã°ÂÂÂ',stat:'Intellect',color:'#fbbf24',quests:['Write down a business idea that genuinely excites you.','Research your target market for one hour.','Talk to a potential customer about a problem you\'re solving.','Register a domain for a business idea.','Build a simple landing page to test your concept.','Create a basic business plan  --  one page is enough to start.','Set a revenue goal and a deadline to hit it.','Launch a minimum viable product and share it publicly.','Get your first paying customer.','Apply for a business license or structure your entity.','Pitch your idea to someone whose opinion you respect.','Write content that provides real value to your target audience.','Learn one skill directly relevant to growing your business.','Set up a basic accounting system for your business.','Build a small audience on one social platform.','Partner or collaborate with another creator or business.','Automate one task in your business workflow.','Get your first five reviews or testimonials.','Raise your prices  --  and don\'t apologize for it.','Hit your first $1,000 in revenue from something you built.','File your first business tax return.','Hire your first freelancer or employee.','Speak about your business in front of an audience.','Attend a networking event in your industry.','Build a product that earns money while you sleep.']}
 ];
 
 const DIFF_XP={easy:10,medium:25,hard:50,epic:100};
 const XP_TABLE=[0,100,250,450,700,1000,1350,1750,2200,2700,3250,3850,4500,5200,5950,6750,7600,8500,9450,10450];
-const CLASSES=[{l:1,t:'Wanderer',e:'ð¶'},{l:3,t:'Apprentice',e:'ð±'},{l:5,t:'Journeyman',e:'âï¸'},{l:8,t:'Adventurer',e:'ð¡ï¸'},{l:10,t:'Hero',e:'ð¦¸'},{l:13,t:'Champion',e:'ð'},{l:15,t:'Legend',e:'â­'},{l:18,t:'Mythic',e:'ð'},{l:20,t:'Godlike',e:'ð'}];
+const CLASSES=[{l:1,t:'Wanderer',e:'Ã°ÂÂÂ¶'},{l:3,t:'Apprentice',e:'Ã°ÂÂÂ±'},{l:5,t:'Journeyman',e:'Ã¢ÂÂÃ¯Â¸Â'},{l:8,t:'Adventurer',e:'Ã°ÂÂÂ¡Ã¯Â¸Â'},{l:10,t:'Hero',e:'Ã°ÂÂ¦Â¸'},{l:13,t:'Champion',e:'Ã°ÂÂÂ'},{l:15,t:'Legend',e:'Ã¢Â­Â'},{l:18,t:'Mythic',e:'Ã°ÂÂÂ'},{l:20,t:'Godlike',e:'Ã°ÂÂÂ'}];
 const STAT_CHIPS={Strength:'str',Intellect:'int',Agility:'agi',Wisdom:'wis',Charisma:'cha',Vitality:'vit',Creativity:'cre',Wanderlust:'wan'};
 
 const ACHIEVEMENTS=[
-  {id:'first',icon:'â¡',name:'First Steps',desc:'Complete your first quest',check:(p,c)=>c>=1},
-  {id:'q10',icon:'ð',name:'Getting Started',desc:'Complete 10 quests',check:(p,c)=>c>=10},
-  {id:'q50',icon:'ð¥',name:'On Fire',desc:'Complete 50 quests',check:(p,c)=>c>=50},
-  {id:'q100',icon:'ð¯',name:'Century Club',desc:'Complete 100 quests',check:(p,c)=>c>=100},
-  {id:'lv5',icon:'âï¸',name:'Journeyman',desc:'Reach level 5',check:p=>p.level>=5},
-  {id:'lv10',icon:'ð¦¸',name:'Hero',desc:'Reach level 10',check:p=>p.level>=10},
-  {id:'lv20',icon:'ð',name:'Godlike',desc:'Reach max level',check:p=>p.level>=20},
-  {id:'streak7',icon:'ð',name:'Week Warrior',desc:'7-day streak',check:p=>(p.streak||0)>=7},
-  {id:'streak30',icon:'ðï¸',name:'Month Master',desc:'30-day streak',check:p=>(p.streak||0)>=30},
-  {id:'bookworm',icon:'ð',name:'Bookworm',desc:'Read 10 books from Top 150',check:p=>keys(p).filter(k=>k.startsWith('books_')).length>=10},
-  {id:'globe',icon:'ð',name:'Globe Trotter',desc:'10 travel quests done',check:p=>keys(p).filter(k=>k.startsWith('travel_')||k.startsWith('destinations_')).length>=10},
-  {id:'fit',icon:'ðª',name:'Fitness Freak',desc:'15 fitness quests done',check:p=>keys(p).filter(k=>k.startsWith('fitness_')).length>=15},
-  {id:'social',icon:'ð¦',name:'Social Butterfly',desc:'10 social quests done',check:p=>keys(p).filter(k=>k.startsWith('social_')||k.startsWith('humanity_')).length>=10},
-  {id:'creative',icon:'ð¨',name:'Creative Soul',desc:'3 creative categories done',check:p=>['arts','music','photography','writing'].filter(c=>keys(p).some(k=>k.startsWith(c+'_'))).length>=3},
-  {id:'nature',icon:'ð²',name:'Nature Lover',desc:'10 outdoor quests done',check:p=>keys(p).filter(k=>k.startsWith('outdoors_')).length>=10},
+  {id:'first',icon:'Ã¢ÂÂ¡',name:'First Steps',desc:'Complete your first quest',check:(p,c)=>c>=1},
+  {id:'q10',icon:'Ã°ÂÂÂ',name:'Getting Started',desc:'Complete 10 quests',check:(p,c)=>c>=10},
+  {id:'q50',icon:'Ã°ÂÂÂ¥',name:'On Fire',desc:'Complete 50 quests',check:(p,c)=>c>=50},
+  {id:'q100',icon:'Ã°ÂÂÂ¯',name:'Century Club',desc:'Complete 100 quests',check:(p,c)=>c>=100},
+  {id:'lv5',icon:'Ã¢ÂÂÃ¯Â¸Â',name:'Journeyman',desc:'Reach level 5',check:p=>p.level>=5},
+  {id:'lv10',icon:'Ã°ÂÂ¦Â¸',name:'Hero',desc:'Reach level 10',check:p=>p.level>=10},
+  {id:'lv20',icon:'Ã°ÂÂÂ',name:'Godlike',desc:'Reach max level',check:p=>p.level>=20},
+  {id:'streak7',icon:'Ã°ÂÂÂ',name:'Week Warrior',desc:'7-day streak',check:p=>(p.streak||0)>=7},
+  {id:'streak30',icon:'Ã°ÂÂÂÃ¯Â¸Â',name:'Month Master',desc:'30-day streak',check:p=>(p.streak||0)>=30},
+  {id:'bookworm',icon:'Ã°ÂÂÂ',name:'Bookworm',desc:'Read 10 books from Top 150',check:p=>keys(p).filter(k=>k.startsWith('books_')).length>=10},
+  {id:'globe',icon:'Ã°ÂÂÂ',name:'Globe Trotter',desc:'10 travel quests done',check:p=>keys(p).filter(k=>k.startsWith('travel_')||k.startsWith('destinations_')).length>=10},
+  {id:'fit',icon:'Ã°ÂÂÂª',name:'Fitness Freak',desc:'15 fitness quests done',check:p=>keys(p).filter(k=>k.startsWith('fitness_')).length>=15},
+  {id:'social',icon:'Ã°ÂÂ¦Â',name:'Social Butterfly',desc:'10 social quests done',check:p=>keys(p).filter(k=>k.startsWith('social_')||k.startsWith('humanity_')).length>=10},
+  {id:'creative',icon:'Ã°ÂÂÂ¨',name:'Creative Soul',desc:'3 creative categories done',check:p=>['arts','music','photography','writing'].filter(c=>keys(p).some(k=>k.startsWith(c+'_'))).length>=3},
+  {id:'nature',icon:'Ã°ÂÂÂ²',name:'Nature Lover',desc:'10 outdoor quests done',check:p=>keys(p).filter(k=>k.startsWith('outdoors_')).length>=10},
 ];
 
 const QUOTES=[
   {text:"The journey of a thousand miles begins with a single step.",source:"Laozi",origin:"Tao Te Ching, China, 6th century BC"},
-  {text:"Fall seven times, stand up eight.",source:"Japanese Proverb",origin:"Japan  --  ä¸è»¢ã³å«èµ·ã"},
+  {text:"Fall seven times, stand up eight.",source:"Japanese Proverb",origin:"Japan  --  Ã¤Â¸ÂÃ¨Â»Â¢Ã£ÂÂ³Ã¥ÂÂ«Ã¨ÂµÂ·Ã£ÂÂ"},
   {text:"He who conquers himself is the mightiest warrior.",source:"Confucius",origin:"Analects, China, 500 BC"},
   {text:"In stillness, the muddy water becomes clear.",source:"Tai Chi teaching",origin:"Taoist internal martial arts, China"},
   {text:"Even the tallest tree began as a seed no bigger than a fingernail.",source:"Yoruba proverb",origin:"West Africa"},
   {text:"Without patience, you cannot make beer.",source:"Ethiopian proverb",origin:"Ethiopia"},
   {text:"The ax forgets; the tree remembers.",source:"Zimbabwean proverb",origin:"Zimbabwe"},
   {text:"Knowledge without practice is like a glass eye  --  all for show, nothing for sight.",source:"Arabic proverb",origin:"Arab oral tradition"},
-  {text:"The nail that sticks up gets hammered down.",source:"Japanese proverb",origin:"Japan  --  åºãéã¯æããã"},
+  {text:"The nail that sticks up gets hammered down.",source:"Japanese proverb",origin:"Japan  --  Ã¥ÂÂºÃ£ÂÂÃ©ÂÂÃ£ÂÂ¯Ã¦ÂÂÃ£ÂÂÃ£ÂÂÃ£ÂÂ"},
   {text:"Dripping water hollows out stone, not through force but through persistence.",source:"Ovid",origin:"Epistulae ex Ponto, Rome, 8 AD"},
   {text:"The body benefits from movement and the mind benefits from stillness.",source:"Sakyong Mipham",origin:"Tibetan Buddhist teaching"},
   {text:"Your task is not to seek for love, but merely to seek and find all the barriers within yourself that you have built against it.",source:"Rumi",origin:"Persia, 13th century"},
   {text:"Knowing others is wisdom. Knowing yourself is enlightenment.",source:"Laozi",origin:"Tao Te Ching, China"},
   {text:"The best time to plant a tree was 20 years ago. The second best time is now.",source:"Chinese proverb",origin:"China"},
   {text:"If you are irritated by every rub, how will you be polished?",source:"Rumi",origin:"Masnavi, Persia, 13th century"},
-  {text:"Do not seek to follow in the footsteps of the wise; seek what they sought.",source:"Matsuo BashÅ",origin:"Japan, 17th century"},
+  {text:"Do not seek to follow in the footsteps of the wise; seek what they sought.",source:"Matsuo BashÃÂ",origin:"Japan, 17th century"},
   {text:"A gem cannot be polished without friction, nor a person perfected without trials.",source:"Seneca",origin:"Epistulae Morales, Rome, 65 AD"},
   {text:"He who has a why to live can bear almost any how.",source:"Friedrich Nietzsche",origin:"Germany, 19th century"},
   {text:"Smooth seas do not make skillful sailors.",source:"African proverb",origin:"East African oral tradition"},
@@ -740,7 +764,7 @@ const QUOTES=[
   {text:"A good laugh and a long sleep are the best cures in the doctor's book.",source:"Irish proverb",origin:"Ireland"},
   {text:"Rain does not fall on one roof alone.",source:"Cameroonian proverb",origin:"Cameroon, West Africa"},
   {text:"You were born with wings. Why prefer to crawl through life?",source:"Rumi",origin:"Persia, 13th century"},
-  {text:"Even monkeys fall from trees.",source:"Japanese proverb",origin:"Japan  --  ç¿ãæ¨ããè½ã¡ã"},
+  {text:"Even monkeys fall from trees.",source:"Japanese proverb",origin:"Japan  --  Ã§ÂÂ¿Ã£ÂÂÃ¦ÂÂ¨Ã£ÂÂÃ£ÂÂÃ¨ÂÂ½Ã£ÂÂ¡Ã£ÂÂ"},
   {text:"A warrior does not give up what he loves. He finds the love in what he does.",source:"Dan Millman",origin:"Way of the Peaceful Warrior, USA, 1980"},
   {text:"He who angers you, conquers you.",source:"Elizabeth Kenny",origin:"Australia"},
   {text:"First say to yourself what you would be, then do what you have to do.",source:"Epictetus",origin:"Discourses, Greece, 108 AD"},
@@ -807,7 +831,7 @@ async function loadProfileFromDB(){
   if(error || !data) return null;
   const p = {
     username: data.username,
-    avatar: data.avatar || 'âï¸',
+    avatar: data.avatar || 'Ã¢ÂÂÃ¯Â¸Â',
     xp: data.xp || 0,
     level: data.level || 1,
     streak: data.streak || 0,
@@ -825,9 +849,10 @@ async function loadProfileFromDB(){
 }
 
 // GM check
-function isGM(){
-  if(!_session) return false;
-  return _session.user.user_metadata?.username === GM_USERNAME;
+function isGM(user) {
+  if (!user) return false;
+  const uname = (typeof user === 'string' ? user : (user.username || '')).toLowerCase().trim();
+  return uname === 'nodel';
 }
 
 // Feed
@@ -956,19 +981,19 @@ async function doLogin(){
   if(!u.includes('@')){
     // Username login -- look up email via profiles table
     const {data} = await supa.from('profiles').select('id').eq('username', u).single();
-    if(!data){ err.textContent='Username not found.'; if(btn) btn.textContent='â¶ START'; return; }
+    if(!data){ err.textContent='Username not found.'; if(btn) btn.textContent='Ã¢ÂÂ¶ START'; return; }
     // Get email from auth -- we store it in metadata
     const {data:authData} = await supa.auth.admin?.getUserById?.(data.id) || {data:null};
     if(!authData){
       err.textContent='Please sign in with your email address.';
-      if(btn) btn.textContent='â¶ START';
+      if(btn) btn.textContent='Ã¢ÂÂ¶ START';
       return;
     }
     email = authData.user?.email;
   }
 
   const {data, error} = await supa.auth.signInWithPassword({email, password:pw});
-  if(error){ err.textContent = error.message; if(btn) btn.textContent='â¶ START'; return; }
+  if(error){ err.textContent = error.message; if(btn) btn.textContent='Ã¢ÂÂ¶ START'; return; }
   _session = data.session;
   await loadProfileFromDB();
   await loadFeedFromDB();
@@ -998,7 +1023,7 @@ async function doSignup(){
     password: pw,
     options:{ data:{ username: u, avatar: selectedAv } }
   });
-  if(error){ err.textContent=error.message; if(btn) btn.textContent='â¶ CREATE CHARACTER'; return; }
+  if(error){ err.textContent=error.message; if(btn) btn.textContent='Ã¢ÂÂ¶ CREATE CHARACTER'; return; }
 
   if(data.user){
     // Manually insert profile as fallback in case trigger fails
@@ -1020,18 +1045,18 @@ async function doSignup(){
     _session = data.session;
     await loadProfileFromDB();
     bootApp();
-    showToast('ð','Character created!', u+' is ready to level up','gold');
+    showToast('Ã°ÂÂÂ','Character created!', u+' is ready to level up','gold');
   } else {
     err.style.color='var(--green)';
     err.textContent='Check your email and click the confirmation link, then come back and log in!';
-    if(btn) btn.textContent='â¶ CREATE CHARACTER';
+    if(btn) btn.textContent='Ã¢ÂÂ¶ CREATE CHARACTER';
   }
 }
 
 function guestMode(){
-  showToast('ð¤','Guest Mode','Progress saves locally only','');
+  showToast('Ã°ÂÂÂ¤','Guest Mode','Progress saves locally only','');
   _session = null;
-  const gp = LS.get('lul_profile_guest') || newProfile('Guest','âï¸');
+  const gp = LS.get('lul_profile_guest') || newProfile('Guest','Ã¢ÂÂÃ¯Â¸Â');
   LS.set('lul_profile_guest', gp);
   _profile = gp;
   // Override loadProfile for guest
@@ -1040,7 +1065,7 @@ function guestMode(){
 
 function syncCharList(p,id){}  // no-op, kept for compatibility
 
-let selectedAv='âï¸';
+let selectedAv='Ã¢ÂÂÃ¯Â¸Â';
 function pickAv(el,emoji){
   document.querySelectorAll('.av-opt').forEach(e=>e.classList.remove('sel'));
   el.classList.add('sel');selectedAv=emoji;
@@ -1100,7 +1125,7 @@ function completeQuest(catId,idx,text){
   if(lastDate!==today){p.streak=lastDate===yesterday?(p.streak||0)+1:1;}
   p.lastActive=Date.now();
   saveProfile(p);
-  addFeed({type:'quest',avatar:p.avatar||'âï¸',username:p.username,level:p.level,catId,catIcon:cat?.icon||'â',catName:cat?.name||catId,quest:text,stat:cat?.stat,xp:xpGain,diff,ts:Date.now()});
+  addFeed({type:'quest',avatar:p.avatar||'Ã¢ÂÂÃ¯Â¸Â',username:p.username,level:p.level,catId,catIcon:cat?.icon||'Ã¢ÂÂ',catName:cat?.name||catId,quest:text,stat:cat?.stat,xp:xpGain,diff,ts:Date.now()});
   const newAchs=checkAchs(p);
   // Check if any missions were completed by this quest
   setTimeout(()=>{ allMissions().forEach(m=>{ if(!getMissionState()[m.id+'_celebrated']) checkMissionComplete(m.id); }); },200);
@@ -1124,7 +1149,7 @@ function completeCustomQuest(catId,cqId){
   p.lastActive=Date.now();
   saveProfile(p);
   const cat=CATS.find(c=>c.id===catId);
-  addFeed({type:'quest',avatar:p.avatar||'âï¸',username:p.username,level:p.level,catId,catIcon:'â­',catName:(cat?.name||catId)+' (custom)',quest:cq.text,xp:xpGain,diff:cq.diff,ts:Date.now()});
+  addFeed({type:'quest',avatar:p.avatar||'Ã¢ÂÂÃ¯Â¸Â',username:p.username,level:p.level,catId,catIcon:'Ã¢Â­Â',catName:(cat?.name||catId)+' (custom)',quest:cq.text,xp:xpGain,diff:cq.diff,ts:Date.now()});
   const newAchs=checkAchs(p);
   return{xpGain,diff:cq.diff,newAchs};
 }
@@ -1136,7 +1161,7 @@ function checkAchs(p){
     if(!p.achievements[a.id]&&a.check(p,count)){
       p.achievements[a.id]=Date.now();
       newOnes.push(a);
-      addFeed({type:'achievement',avatar:p.avatar||'âï¸',username:p.username,achIcon:a.icon,achName:a.name,achDesc:a.desc,ts:Date.now()});
+      addFeed({type:'achievement',avatar:p.avatar||'Ã¢ÂÂÃ¯Â¸Â',username:p.username,achIcon:a.icon,achName:a.name,achDesc:a.desc,ts:Date.now()});
     }
   }
   saveProfile(p);
@@ -1167,7 +1192,7 @@ function renderHome(){
 
   const streakHtml=(p.streak||0)>0?`
     <div class="streak-bar">
-      <span style="font-size:26px">ð¥</span>
+      <span style="font-size:26px">Ã°ÂÂÂ¥</span>
       <div>
         <div style="font-family:var(--pixel);font-size:11px;color:var(--orange)">${p.streak} Day Streak!</div>
         <div style="font-size:11px;color:var(--muted2)">Complete a quest today to keep it going</div>
@@ -1182,7 +1207,7 @@ function renderHome(){
     const statChip=item.stat?`<span class="stat-chip ${STAT_CHIPS[item.stat]||''}">${item.stat?.toUpperCase()} +1</span>`:'';
     return`<div class="feed-item${isAch?' ach':''}" style="animation-delay:${i*.025}s">
       <div class="feed-av">
-        <div class="feed-av-img">${item.avatar||'âï¸'}</div>
+        <div class="feed-av-img">${item.avatar||'Ã¢ÂÂÃ¯Â¸Â'}</div>
         <div class="feed-av-level">LVL ${item.level||'?'}</div>
       </div>
       <div class="feed-body">
@@ -1190,9 +1215,9 @@ function renderHome(){
         <div class="feed-completed">${isAch?'unlocked an achievement':isMission?'completed a mission on '+new Date(item.ts).toLocaleDateString():isDaily?'completed a daily on '+new Date(item.ts).toLocaleDateString():'completed on '+new Date(item.ts).toLocaleDateString()+':\u00A0'}</div>
         ${isAch
           ?`<div class="ach-feed-box"><span style="font-size:22px">${item.achIcon}</span><div><div style="font-family:var(--pixel);font-size:9px;color:var(--gold)">${esc(item.achName)}</div><div style="font-size:11px;color:var(--muted2)">${esc(item.achDesc)}</div></div></div>`
-          :isMission?`<div class="feed-quest-box" style="border-left-color:var(--cyan)"><span class="feed-quest-icon">${item.missionIcon||'ð¯'}</span><span class="feed-quest-text">${esc(item.missionName)}</span></div>`
-          :isDaily?`<div class="feed-quest-box" style="border-left-color:var(--gold)"><span class="feed-quest-icon">${item.dailyIcon||'ð'}</span><span class="feed-quest-text">${esc(item.dailyName)}</span></div>`
-          :`<div class="feed-quest-box"><span class="feed-quest-icon">${item.catIcon||'â'}</span><span class="feed-quest-text">${esc(item.quest)}</span></div>`
+          :isMission?`<div class="feed-quest-box" style="border-left-color:var(--cyan)"><span class="feed-quest-icon">${item.missionIcon||'Ã°ÂÂÂ¯'}</span><span class="feed-quest-text">${esc(item.missionName)}</span></div>`
+          :isDaily?`<div class="feed-quest-box" style="border-left-color:var(--gold)"><span class="feed-quest-icon">${item.dailyIcon||'Ã°ÂÂÂ'}</span><span class="feed-quest-text">${esc(item.dailyName)}</span></div>`
+          :`<div class="feed-quest-box"><span class="feed-quest-icon">${item.catIcon||'Ã¢ÂÂ'}</span><span class="feed-quest-text">${esc(item.quest)}</span></div>`
         }
         ${!isAch?`<div class="feed-xp-row">${statChip}<span class="xp-earned">+${item.xp} XP</span></div>`:''}
         ${item.type==='daily'?'<div style="font-size:10px;color:var(--gold);font-family:var(--pixel);margin-top:4px">DAILY QUEST</div>':''}
@@ -1200,12 +1225,12 @@ function renderHome(){
         <div style="font-size:10px;color:var(--muted);margin-top:4px">${timeAgo(item.ts)}</div>
       </div>
     </div>`;
-  }).join(''):`<div class="empty"><div class="empty-emoji">ð¡</div><div class="empty-text">No activity yet.<br>Go complete some quests!</div></div>`;
+  }).join(''):`<div class="empty"><div class="empty-emoji">Ã°ÂÂÂ¡</div><div class="empty-text">No activity yet.<br>Go complete some quests!</div></div>`;
 
   document.getElementById('home-c').innerHTML=`
     <div class="feed-header">
       <div class="char-bar">
-        <div class="char-av">${p.avatar||'âï¸'}</div>
+        <div class="char-av">${p.avatar||'Ã¢ÂÂÃ¯Â¸Â'}</div>
         <div class="char-info">
           <div class="char-name">${esc(p.username)}</div>
           <div class="char-class">${cls.e} ${cls.t} &mdash; Level ${p.level}</div>
@@ -1253,7 +1278,7 @@ function renderQuests(){
     const isDone=!!p.done[key];
     const diff=getDiff(q);
     return`<div class="quest-row${isDone?' done':''}" onclick="tapQuest('${cat.id}',${idx})">
-      <div class="qcheck${isDone?' done':''}">${isDone?'â':''}</div>
+      <div class="qcheck${isDone?' done':''}">${isDone?'Ã¢ÂÂ':''}</div>
       <div class="qtext">${esc(q)}</div>
       <div class="qright">
         <span class="diff-tag diff-${diff}">${diff}</span>
@@ -1266,12 +1291,12 @@ function renderQuests(){
     const key='custom_'+cat.id+'_'+cq.id;
     const isDone=!!p.done[key];
     return`<div class="quest-row${isDone?' done':''}">
-      <div class="qcheck${isDone?' done':''}" onclick="tapCustomQuest('${cat.id}','${cq.id}')">${isDone?'â':''}</div>
+      <div class="qcheck${isDone?' done':''}" onclick="tapCustomQuest('${cat.id}','${cq.id}')">${isDone?'Ã¢ÂÂ':''}</div>
       <div class="qtext">${esc(cq.text)}<span class="custom-tag">CUSTOM</span></div>
       <div class="qright" style="flex-direction:row;align-items:center;gap:6px">
         <span class="diff-tag diff-${cq.diff||'medium'}">${cq.diff||'medium'}</span>
         <span class="qxp">+${DIFF_XP[cq.diff||'medium']}xp</span>
-        ${!isDone?`<button class="del-btn" onclick="deleteCustom('${cat.id}','${cq.id}');event.stopPropagation()">Ã</button>`:''}
+        ${!isDone?`<button class="del-btn" onclick="deleteCustom('${cat.id}','${cq.id}');event.stopPropagation()">ÃÂ</button>`:''}
       </div>
     </div>`;
   }).join('');
@@ -1293,7 +1318,7 @@ function renderQuests(){
       <button class="btn btn-cyan btn-sm" style="flex-shrink:0;padding:10px 14px;font-size:14px" onclick="addCustom('${cat.id}')">+</button>
     </div>
     ${customHtml}${builtInHtml}
-    ${!filtered.length&&!customFiltered.length?'<div class="empty"><div class="empty-emoji">ð</div><div class="empty-text">No quests match your search.</div></div>':''}
+    ${!filtered.length&&!customFiltered.length?'<div class="empty"><div class="empty-emoji">Ã°ÂÂÂ</div><div class="empty-text">No quests match your search.</div></div>':''}
   `;
 }
 
@@ -1306,8 +1331,8 @@ function tapQuest(catId,idx){
   const result=completeQuest(catId,idx,cat.quests[idx]);
   if(!result)return;
   xpPop();
-  showToast('â¡','+'+result.xpGain+' XP',cat.quests[idx].substring(0,55),'green');
-  result.newAchs.forEach((a,i)=>setTimeout(()=>showToast('ð','Achievement!',a.icon+' '+a.name,'gold'),900+i*600));
+  showToast('Ã¢ÂÂ¡','+'+result.xpGain+' XP',cat.quests[idx].substring(0,55),'green');
+  result.newAchs.forEach((a,i)=>setTimeout(()=>showToast('Ã°ÂÂÂ','Achievement!',a.icon+' '+a.name,'gold'),900+i*600));
   updateTopbar();
   renderQuests();
   if(curPage==='home')renderHome();
@@ -1319,8 +1344,8 @@ function tapCustomQuest(catId,cqId){
   const result=completeCustomQuest(catId,cqId);
   if(!result)return;
   xpPop();
-  showToast('â¡','+'+result.xpGain+' XP','Custom quest complete!','green');
-  result.newAchs.forEach((a,i)=>setTimeout(()=>showToast('ð','Achievement!',a.icon+' '+a.name,'gold'),900+i*600));
+  showToast('Ã¢ÂÂ¡','+'+result.xpGain+' XP','Custom quest complete!','green');
+  result.newAchs.forEach((a,i)=>setTimeout(()=>showToast('Ã°ÂÂÂ','Achievement!',a.icon+' '+a.name,'gold'),900+i*600));
   updateTopbar();
   renderQuests();
 }
@@ -1336,7 +1361,7 @@ function addCustom(catId){
   p.customQuests[catId].push({id:'cq_'+Date.now(),text,diff});
   saveProfile(p);
   input.value='';
-  showToast('â','Quest added!',text.substring(0,50),'green');
+  showToast('Ã¢ÂÂ','Quest added!',text.substring(0,50),'green');
   renderQuests();
 }
 
@@ -1363,7 +1388,7 @@ function renderProfile(){
   const statsHtml=Object.entries(p.stats||{}).map(([k,v])=>`<div class="stat-cell"><div class="stat-cell-name">${k}</div><div class="stat-cell-val">${v}</div></div>`).join('');
   document.getElementById('profile-c').innerHTML=`
     <div class="profile-card">
-      <div class="profile-av">${p.avatar||'âï¸'}</div>
+      <div class="profile-av">${p.avatar||'Ã¢ÂÂÃ¯Â¸Â'}</div>
       <div class="profile-name">${esc(p.username)}</div>
       <div class="profile-class">${cls.e} ${cls.t}</div>
       <div class="profile-xp-row"><span>Level ${p.level}</span><span>${p.xp.toLocaleString()} XP</span></div>
@@ -1372,7 +1397,7 @@ function renderProfile(){
       <div class="profile-nums">
         <div class="pnum"><div class="pnum-val">${qDone}</div><div class="pnum-label">QUESTS</div></div>
         <div class="pnum"><div class="pnum-val">${achDone}</div><div class="pnum-label">BADGES</div></div>
-        <div class="pnum"><div class="pnum-val streak-num">${p.streak||0}ð¥</div><div class="pnum-label">STREAK</div></div>
+        <div class="pnum"><div class="pnum-val streak-num">${p.streak||0}Ã°ÂÂÂ¥</div><div class="pnum-label">STREAK</div></div>
       </div>
       <div class="stats-grid">${statsHtml}</div>
     </div>
@@ -1399,11 +1424,11 @@ function renderPTab(){
     el.innerHTML=feed.length?feed.slice(0,50).map(item=>{
       const isAch=item.type==='achievement';
       return`<div class="act-item">
-        <div class="act-icon">${isAch?item.achIcon:item.catIcon||'â'}</div>
-        <div><div class="act-text">${isAch?'ð '+esc(item.achName):esc(item.quest||'')}</div><div class="act-meta">${timeAgo(item.ts)}</div></div>
+        <div class="act-icon">${isAch?item.achIcon:item.catIcon||'Ã¢ÂÂ'}</div>
+        <div><div class="act-text">${isAch?'Ã°ÂÂÂ '+esc(item.achName):esc(item.quest||'')}</div><div class="act-meta">${timeAgo(item.ts)}</div></div>
         ${!isAch?`<span class="act-xp">+${item.xp}xp</span>`:''}
       </div>`;
-    }).join(''):`<div class="empty"><div class="empty-emoji">âï¸</div><div class="empty-text">No activity yet!</div></div>`;
+    }).join(''):`<div class="empty"><div class="empty-emoji">Ã¢ÂÂÃ¯Â¸Â</div><div class="empty-text">No activity yet!</div></div>`;
   }
   if(pTab==='achievements'){
     el.innerHTML=`<div class="ach-grid">${ACHIEVEMENTS.map(a=>{
@@ -1412,7 +1437,7 @@ function renderPTab(){
         <span class="ach-icon">${a.icon}</span>
         <div class="ach-name">${esc(a.name)}</div>
         <div class="ach-desc">${esc(a.desc)}</div>
-        ${u?`<div class="ach-date">â ${new Date(u).toLocaleDateString()}</div>`:'<div class="ach-date" style="color:var(--muted)">ð LOCKED</div>'}
+        ${u?`<div class="ach-date">Ã¢ÂÂ ${new Date(u).toLocaleDateString()}</div>`:'<div class="ach-date" style="color:var(--muted)">Ã°ÂÂÂ LOCKED</div>'}
       </div>`;
     }).join('')}</div>`;
   }
@@ -1427,17 +1452,17 @@ function renderPTab(){
         </div>
         <label class="form-label">Avatar</label>
         <div class="avatar-grid" id="av-settings">
-          ${['âï¸','ð§','ð¹','ð¡ï¸','â¡','ð®','ð','ð¦¸','ð','ð¡ï¸'].map(a=>`<div class="av-opt${a===p.avatar?' sel':''}" onclick="saveAv(this,'${a}')">${a}</div>`).join('')}
+          ${['Ã¢ÂÂÃ¯Â¸Â','Ã°ÂÂ§Â','Ã°ÂÂÂ¹','Ã°ÂÂÂ¡Ã¯Â¸Â','Ã¢ÂÂ¡','Ã°ÂÂÂ®','Ã°ÂÂÂ','Ã°ÂÂ¦Â¸','Ã°ÂÂÂ','Ã°ÂÂÂ¡Ã¯Â¸Â'].map(a=>`<div class="av-opt${a===p.avatar?' sel':''}" onclick="saveAv(this,'${a}')">${a}</div>`).join('')}
         </div>
       </div>
       <div class="settings-card">
         <div class="settings-title">Data</div>
-        <button class="btn btn-ghost btn-full btn-sm" onclick="exportData()" style="margin-bottom:8px">ð¤ Export Progress</button>
-        <button class="btn btn-danger btn-full btn-sm" onclick="confirmReset()">ðï¸ Reset All Progress</button>
+        <button class="btn btn-ghost btn-full btn-sm" onclick="exportData()" style="margin-bottom:8px">Ã°ÂÂÂ¤ Export Progress</button>
+        <button class="btn btn-danger btn-full btn-sm" onclick="confirmReset()">Ã°ÂÂÂÃ¯Â¸Â Reset All Progress</button>
       </div>
       <div class="settings-card">
         <div class="settings-title">Characters</div>
-        <button class="btn btn-ghost btn-full btn-sm" onclick="showSwitchChar()" style="margin-bottom:8px">ð¥ Switch Character</button>
+        <button class="btn btn-ghost btn-full btn-sm" onclick="showSwitchChar()" style="margin-bottom:8px">Ã°ÂÂÂ¥ Switch Character</button>
         <button class="btn btn-purple btn-full btn-sm" onclick="showNewChar()">+ Create New Character</button>
       </div>
     `;
@@ -1447,7 +1472,7 @@ function saveName(){
   const n=document.getElementById('edit-name')?.value.trim();
   if(!n||n.length<2)return;
   const p=loadProfile();p.username=n;saveProfile(p);
-  updateTopbar();showToast('â','Username updated!','','green');renderProfile();
+  updateTopbar();showToast('Ã¢ÂÂ','Username updated!','','green');renderProfile();
 }
 function saveAv(el,emoji){
   document.querySelectorAll('#av-settings .av-opt').forEach(e=>e.classList.remove('sel'));
@@ -1460,7 +1485,7 @@ function exportData(){
   const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='lvluplife2-save.json';a.click();
 }
 function confirmReset(){
-  openModal(`<div class="modal-title" style="color:var(--red)">â ï¸ RESET ALL PROGRESS</div>
+  openModal(`<div class="modal-title" style="color:var(--red)">Ã¢ÂÂ Ã¯Â¸Â RESET ALL PROGRESS</div>
     <p style="font-size:13px;color:var(--muted2);margin-bottom:16px;line-height:1.6">This permanently deletes all your quests, XP, and achievements. Cannot be undone.</p>
     <div style="display:flex;gap:8px">
       <button class="btn btn-ghost" style="flex:1" onclick="closeModal()">Cancel</button>
@@ -1484,12 +1509,12 @@ function showSwitchChar(){
     const isMe=c.id===curId;
     const onclick = isMe ? '' : 'switchChar("'+c.id+'")';
     return '<div style="background:var(--card);border:1px solid '+(isMe?'var(--cyan)':'var(--border)')+';padding:12px;display:flex;align-items:center;gap:10px;margin-bottom:8px;cursor:pointer" onclick="'+onclick+'">'
-      +'<div style="width:40px;height:40px;background:var(--bg3);border:2px solid var(--border2);display:flex;align-items:center;justify-content:center;font-size:22px">'+(c.avatar||'âï¸')+'</div>'
+      +'<div style="width:40px;height:40px;background:var(--bg3);border:2px solid var(--border2);display:flex;align-items:center;justify-content:center;font-size:22px">'+(c.avatar||'Ã¢ÂÂÃ¯Â¸Â')+'</div>'
       +'<div style="flex:1"><div style="font-family:var(--pixel);font-size:9px;color:'+(isMe?'var(--cyan)':'var(--text)')+'">'+ esc(c.username)+(isMe?' &lt;':'')+'</div><div style="font-size:11px;color:var(--muted2)">'+ cls.e+' '+cls.t+' Lv.'+(c.level||1)+'</div></div></div>';
   }).join('');
-  openModal(`<div class="modal-title">ð¥ Switch Character</div>${html}<button class="btn btn-ghost btn-full" onclick="closeModal()">Cancel</button>`);
+  openModal(`<div class="modal-title">Ã°ÂÂÂ¥ Switch Character</div>${html}<button class="btn btn-ghost btn-full" onclick="closeModal()">Cancel</button>`);
 }
-function switchChar(id){LS.set('lul_active_id',id);closeModal();bootApp();showToast('âï¸','Character switched!','','green')}
+function switchChar(id){LS.set('lul_active_id',id);closeModal();bootApp();showToast('Ã¢ÂÂÃ¯Â¸Â','Character switched!','','green')}
 function showNewChar(){
   closeModal();
   document.getElementById('app').style.display='none';
@@ -1524,13 +1549,13 @@ function renderLB(){
     </div>`).join('');
   document.getElementById('lb-c').innerHTML=`
     <div class="lb-title-bar">
-      <div class="lb-main-title">ð YOUR PROGRESS</div>
+      <div class="lb-main-title">Ã°ÂÂÂ YOUR PROGRESS</div>
     </div>
     <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:16px">
       <div class="gm-stat"><div class="gm-stat-val">${p.level}</div><div class="gm-stat-label">Level  --  ${cls.e} ${cls.t}</div></div>
       <div class="gm-stat"><div class="gm-stat-val">${p.xp.toLocaleString()}</div><div class="gm-stat-label">Total XP</div></div>
       <div class="gm-stat"><div class="gm-stat-val">${done}</div><div class="gm-stat-label">Quests Done (${pct}%)</div></div>
-      <div class="gm-stat"><div class="gm-stat-val" style="color:var(--orange)">${p.streak||0}ð¥</div><div class="gm-stat-label">Day Streak</div></div>
+      <div class="gm-stat"><div class="gm-stat-val" style="color:var(--orange)">${p.streak||0}Ã°ÂÂÂ¥</div><div class="gm-stat-label">Day Streak</div></div>
     </div>
     <div class="section-sep">Category Breakdown  --  tap to continue</div>
     ${catHtml}
@@ -1560,23 +1585,23 @@ function renderArena(){
     const myEntry=subs.find(s=>s.tid===t.id&&s.username===p.username);
     const daysLeft=Math.max(0,Math.ceil((new Date(t.endDate)-Date.now())/86400000));
     const lbHtml=lb.length?lb.map(([name,count],i)=>`<div class="tourney-lb-row">
-      <span style="font-family:var(--pixel);font-size:9px;width:20px">${['ð¥','ð¥','ð¥'][i]||i+1}</span>
+      <span style="font-family:var(--pixel);font-size:9px;width:20px">${['Ã°ÂÂ¥Â','Ã°ÂÂ¥Â','Ã°ÂÂ¥Â'][i]||i+1}</span>
       <span style="flex:1;font-family:var(--pixel);font-size:8px;color:${name===p.username?'var(--cyan)':'var(--text)'}">${esc(name)}${name===p.username?' (you)':''}</span>
       <span style="font-family:var(--pixel);font-size:8px;color:var(--green)">${count} approved</span>
     </div>`).join(''):'';
-    const statusHtml=!myEntry?`<button class="btn btn-orange btn-full btn-sm" style="background:var(--orange);color:#000;border-color:var(--orange);margin-top:8px" onclick="openSubmit('${t.id}')">ð¸ SUBMIT PROOF</button>`:
-      myEntry.status==='pending'?`<div class="sub-status-pending">â³ Pending GM review</div>`:
-      myEntry.status==='approved'?`<div class="sub-status-approved">â APPROVED  --  you're on the board!</div>`:
-      `<div class="sub-status-rejected">â Rejected: ${esc(myEntry.gmNote||'See GM for details')}<br><button class="btn btn-ghost btn-sm btn-full" style="margin-top:8px" onclick="openSubmit('${t.id}')">Resubmit</button></div>`;
+    const statusHtml=!myEntry?`<button class="btn btn-orange btn-full btn-sm" style="background:var(--orange);color:#000;border-color:var(--orange);margin-top:8px" onclick="openSubmit('${t.id}')">Ã°ÂÂÂ¸ SUBMIT PROOF</button>`:
+      myEntry.status==='pending'?`<div class="sub-status-pending">Ã¢ÂÂ³ Pending GM review</div>`:
+      myEntry.status==='approved'?`<div class="sub-status-approved">Ã¢ÂÂ APPROVED  --  you're on the board!</div>`:
+      `<div class="sub-status-rejected">Ã¢ÂÂ Rejected: ${esc(myEntry.gmNote||'See GM for details')}<br><button class="btn btn-ghost btn-sm btn-full" style="margin-top:8px" onclick="openSubmit('${t.id}')">Resubmit</button></div>`;
     return`<div class="tourney-card">
-      <div class="tourney-name">â¡ ${esc(t.name)}</div>
+      <div class="tourney-name">Ã¢ÂÂ¡ ${esc(t.name)}</div>
       <div style="font-size:12px;color:var(--muted2);margin-bottom:8px">${esc(t.description||'')}</div>
-      <div class="tourney-quest"><span style="margin-right:6px">ð</span>${esc(t.questName)}</div>
+      <div class="tourney-quest"><span style="margin-right:6px">Ã°ÂÂÂ</span>${esc(t.questName)}</div>
       <div class="tourney-meta"><span>${daysLeft} days remaining</span><span>Ends ${new Date(t.endDate).toLocaleDateString()}</span></div>
       ${lb.length?`<div style="margin-bottom:10px">${lbHtml}</div>`:''}
       ${statusHtml}
     </div>`;
-  }).join(''):`<div class="empty"><div class="empty-emoji">ðï¸</div><div class="empty-text">No active tournaments yet.<br>Check back soon!</div></div>`;
+  }).join(''):`<div class="empty"><div class="empty-emoji">Ã°ÂÂÂÃ¯Â¸Â</div><div class="empty-text">No active tournaments yet.<br>Check back soon!</div></div>`;
 
   const pastHtml=past.length?`<div class="section-sep">Past Tournaments</div>${past.map(t=>{
     const tSubs=subs.filter(s=>s.tid===t.id&&s.status==='approved');
@@ -1584,18 +1609,18 @@ function renderArena(){
     const winner=Object.entries(lbMap).sort((a,b)=>b[1]-a[1])[0];
     return`<div style="background:var(--card);border:1px solid var(--border);padding:10px 12px;margin-bottom:6px;opacity:.6">
       <div style="font-family:var(--pixel);font-size:9px">${esc(t.name)}</div>
-      <div style="font-size:12px;color:var(--muted2);margin-top:4px">${winner?'ð Winner: '+esc(winner[0]):'No submissions'}</div>
+      <div style="font-size:12px;color:var(--muted2);margin-top:4px">${winner?'Ã°ÂÂÂ Winner: '+esc(winner[0]):'No submissions'}</div>
     </div>`;
   }).join('')}`:'';
 
   document.getElementById('arena-c').innerHTML=`
     <div class="arena-header">
-      <div class="arena-title">â¡ ARENA</div>
+      <div class="arena-title">Ã¢ÂÂ¡ ARENA</div>
       <div style="font-size:12px;color:var(--muted2)">Compete. Prove it. Win.</div>
     </div>
     ${activeHtml}${pastHtml}
     <div class="coming-soon-box">
-      <div style="font-size:28px;margin-bottom:8px">ð</div>
+      <div style="font-size:28px;margin-bottom:8px">Ã°ÂÂÂ</div>
       <div style="font-family:var(--pixel);font-size:9px;margin-bottom:6px">VS. LEADERBOARDS</div>
       <div style="font-size:12px;color:var(--muted2);margin-bottom:8px">Head-to-head challenges between players</div>
       <div style="font-family:var(--pixel);font-size:7px;color:var(--orange);background:rgba(255,107,0,.15);padding:4px 10px;display:inline-block">COMING SOON</div>
@@ -1607,7 +1632,7 @@ function openSubmit(tid){
   const t=getTourneys().find(t=>t.id===tid);if(!t)return;
   proofData=null;
   openModal(`
-    <div class="modal-title">ð¸ SUBMIT PROOF</div>
+    <div class="modal-title">Ã°ÂÂÂ¸ SUBMIT PROOF</div>
     <div style="background:var(--bg3);border:1px solid var(--border2);padding:10px;margin-bottom:14px">
       <div style="font-size:10px;color:var(--muted2);font-family:var(--pixel);margin-bottom:4px">TOURNAMENT</div>
       <div style="font-family:var(--pixel);font-size:9px;color:var(--orange)">${esc(t.name)}</div>
@@ -1615,7 +1640,7 @@ function openSubmit(tid){
     </div>
     <label class="form-label">Photo Proof</label>
     <div style="border:2px dashed var(--border2);padding:20px;text-align:center;cursor:pointer;margin-bottom:14px" onclick="document.getElementById('proof-file').click()">
-      <div id="proof-prev" style="font-size:32px;margin-bottom:6px">ð·</div>
+      <div id="proof-prev" style="font-size:32px;margin-bottom:6px">Ã°ÂÂÂ·</div>
       <div id="proof-lbl" style="font-size:12px;color:var(--muted2)">Tap to upload photo</div>
     </div>
     <input type="file" id="proof-file" accept="image/*" style="display:none" onchange="prevProof(this)">
@@ -1649,11 +1674,11 @@ function submitProof(tid){
   const p=loadProfile();
   const t=getTourneys().find(t=>t.id===tid);
   const subs=getSubs().filter(s=>!(s.tid===tid&&s.username===p.username));
-  subs.unshift({id:'sub_'+Date.now(),tid,tName:t.name,questName:t.questName,username:p.username,avatar:p.avatar||'âï¸',note,photo:proofData,status:'pending',gmNote:'',submittedAt:Date.now()});
+  subs.unshift({id:'sub_'+Date.now(),tid,tName:t.name,questName:t.questName,username:p.username,avatar:p.avatar||'Ã¢ÂÂÃ¯Â¸Â',note,photo:proofData,status:'pending',gmNote:'',submittedAt:Date.now()});
   saveSubs(subs);
   proofData=null;
   closeModal();
-  showToast('ð¸','Submitted!','Pending GM review','green');
+  showToast('Ã°ÂÂÂ¸','Submitted!','Pending GM review','green');
   renderArena();
 }
 
@@ -1661,13 +1686,13 @@ function submitProof(tid){
 // GM DASHBOARD
 // ===============================================================
 // GM access is tied directly to the GM account credentials
-// No secret triggers â only the GM account sees the GM tab
+// No secret triggers Ã¢ÂÂ only the GM account sees the GM tab
 const GM_USERNAME = 'nodel';
 const GM_PASSWORD = 'Joshuasteward21!';
 
 function isGM(){
   const id = getActiveId();
-  const users = getUsers();
+  const users = [];
   const user = users[id];
   return user && user.username === GM_USERNAME;
 }
@@ -1675,7 +1700,7 @@ function gmLogout(){document.getElementById('nb-gm').style.display='none';go('ho
 
 function renderGM(){
   if(!isGM()){
-    document.getElementById('gm-c').innerHTML='<div class="empty" style="padding-top:80px"><div class="empty-emoji">ð</div><div style="font-size:13px;color:var(--muted2)">Access denied.</div></div>';
+    document.getElementById('gm-c').innerHTML='<div class="empty" style="padding-top:80px"><div class="empty-emoji">Ã°ÂÂÂ</div><div style="font-size:13px;color:var(--muted2)">Access denied.</div></div>';
     return;
   }
   const allChars=LS.get('lul_chars',[]);
@@ -1699,10 +1724,10 @@ function renderGM(){
     const customs=Object.entries(profile.customQuests||{}).flatMap(([cat,arr])=>arr.map(q=>q.text));
     return`<div class="gm-user-card">
       <div class="gm-user-top">
-        <div class="gm-user-av">${c.avatar||'âï¸'}</div>
+        <div class="gm-user-av">${c.avatar||'Ã¢ÂÂÃ¯Â¸Â'}</div>
         <div style="flex:1">
           <div class="gm-user-name">${esc(c.username)}</div>
-          <div class="gm-user-meta ${statusCls}">â ${statusLbl} Â· ð¥${profile.streak||0} streak</div>
+          <div class="gm-user-meta ${statusCls}">Ã¢ÂÂ ${statusLbl} ÃÂ· Ã°ÂÂÂ¥${profile.streak||0} streak</div>
         </div>
         <div style="text-align:right"><div style="font-family:var(--pixel);font-size:10px;color:var(--cyan)">Lv.${profile.level||1}</div><div style="font-size:11px;color:var(--muted2)">${(profile.xp||0).toLocaleString()} XP</div></div>
       </div>
@@ -1712,9 +1737,9 @@ function renderGM(){
         <div class="gm-us"><div class="gm-us-val">${cc}</div><div class="gm-us-label">Custom</div></div>
       </div>
       ${unlockedAchs.length?`<div class="pill-row">${unlockedAchs.map(a=>`<span class="pill-ach">${a.icon} ${esc(a.name)}</span>`).join('')}</div>`:''}
-      ${customs.length?`<div class="pill-row">${customs.slice(0,4).map(t=>`<span class="pill-custom">â­ ${esc(t.substring(0,22))}${t.length>22?'...':''}</span>`).join('')}${customs.length>4?`<span class="pill-custom">+${customs.length-4} more</span>`:''}</div>`:''}
+      ${customs.length?`<div class="pill-row">${customs.slice(0,4).map(t=>`<span class="pill-custom">Ã¢Â­Â ${esc(t.substring(0,22))}${t.length>22?'...':''}</span>`).join('')}${customs.length>4?`<span class="pill-custom">+${customs.length-4} more</span>`:''}</div>`:''}
     </div>`;
-  }).join(''):`<div class="empty"><div class="empty-emoji">ð¤</div><div class="empty-text">No users yet.</div></div>`;
+  }).join(''):`<div class="empty"><div class="empty-emoji">Ã°ÂÂÂ¤</div><div class="empty-text">No users yet.</div></div>`;
 
   const pendingHtml=pending.length?pending.map(s=>`
     <div class="sub-review-card">
@@ -1722,7 +1747,7 @@ function renderGM(){
         <div style="width:36px;height:36px;background:var(--bg3);border:2px solid var(--border2);display:flex;align-items:center;justify-content:center;font-size:20px">${s.avatar}</div>
         <div>
           <div style="font-family:var(--pixel);font-size:9px;color:var(--cyan)">${esc(s.username)}</div>
-          <div style="font-size:11px;color:var(--muted2)">${esc(s.tName)} Â· ${timeAgo(s.submittedAt)}</div>
+          <div style="font-size:11px;color:var(--muted2)">${esc(s.tName)} ÃÂ· ${timeAgo(s.submittedAt)}</div>
         </div>
       </div>
       ${s.photo?`<img src="${s.photo}" class="sub-photo">`:''}
@@ -1730,10 +1755,10 @@ function renderGM(){
       <div class="sub-note-box">"${esc(s.note)}"</div>
       <input type="text" id="gmnote-${s.id}" placeholder="Optional message to user..." style="margin-bottom:8px;font-size:12px">
       <div class="review-btns">
-        <button class="btn btn-danger btn-sm" style="flex:1" onclick="reviewSub('${s.id}','reject')">â Reject</button>
-        <button class="btn btn-green btn-sm" style="flex:1" onclick="reviewSub('${s.id}','approve')">â Approve</button>
+        <button class="btn btn-danger btn-sm" style="flex:1" onclick="reviewSub('${s.id}','reject')">Ã¢ÂÂ Reject</button>
+        <button class="btn btn-green btn-sm" style="flex:1" onclick="reviewSub('${s.id}','approve')">Ã¢ÂÂ Approve</button>
       </div>
-    </div>`).join(''):`<div class="empty"><div class="empty-emoji">â</div><div class="empty-text">No pending submissions.</div></div>`;
+    </div>`).join(''):`<div class="empty"><div class="empty-emoji">Ã¢ÂÂ</div><div class="empty-text">No pending submissions.</div></div>`;
 
   const tourneyManageHtml=tourneys.map(t=>`
     <div class="tourney-manage-row">
@@ -1746,9 +1771,9 @@ function renderGM(){
 
   document.getElementById('gm-c').innerHTML=`
     <div class="gm-header-card">
-      <div class="gm-title">ðï¸ GAME MASTER DASHBOARD</div>
+      <div class="gm-title">Ã°ÂÂÂÃ¯Â¸Â GAME MASTER DASHBOARD</div>
       <div style="font-size:11px;color:var(--muted2)">Only you can see this</div>
-      <button class="btn btn-ghost btn-sm" style="margin-top:8px" onclick="renderGM()">â» Refresh</button>
+      <button class="btn btn-ghost btn-sm" style="margin-top:8px" onclick="renderGM()">Ã¢ÂÂ» Refresh</button>
     </div>
 
     <div class="gm-quote-card">
@@ -1766,14 +1791,14 @@ function renderGM(){
       <div class="gm-stat"><div class="gm-stat-val">${subs.filter(s=>s.status==='approved').length}</div><div class="gm-stat-label">Approved</div></div>
     </div>
 
-    <div class="gm-section">â³ Pending Submissions (${pending.length})</div>
+    <div class="gm-section">Ã¢ÂÂ³ Pending Submissions (${pending.length})</div>
     ${pendingHtml}
 
-    <div class="gm-section">â¡ Manage Tournaments</div>
+    <div class="gm-section">Ã¢ÂÂ¡ Manage Tournaments</div>
     <button class="btn btn-purple btn-full btn-sm" style="margin-bottom:10px" onclick="openCreateTourney()">+ Create Tournament</button>
     ${tourneyManageHtml||'<div style="font-size:12px;color:var(--muted2);text-align:center;padding:12px">No tournaments yet.</div>'}
 
-    <div class="gm-section">ð¤ All Users (${allChars.length})</div>
+    <div class="gm-section">Ã°ÂÂÂ¤ All Users (${allChars.length})</div>
     ${usersHtml}
 
     <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border);text-align:center">
@@ -1789,7 +1814,7 @@ function reviewSub(subId,action){
   sub.status=action==='approve'?'approved':'rejected';
   sub.reviewedAt=Date.now();
   saveSubs(subs);
-  showToast(action==='approve'?'â':'â',action==='approve'?'Approved!':'Rejected',sub.username,action==='approve'?'green':'');
+  showToast(action==='approve'?'Ã¢ÂÂ':'Ã¢ÂÂ',action==='approve'?'Approved!':'Rejected',sub.username,action==='approve'?'green':'');
   renderGM();
 }
 
@@ -1801,7 +1826,7 @@ function openCreateTourney(){
   const opts=CATS.flatMap(cat=>cat.quests.map(q=>`<option value="${esc(q)}" data-cat="${esc(cat.name)}">${esc(cat.icon)} [${esc(cat.name)}] ${esc(q.substring(0,55))}</option>`)).join('');
   const nextMonth=new Date(Date.now()+30*86400000).toISOString().split('T')[0];
   openModal(`
-    <div class="modal-title">â¡ CREATE TOURNAMENT</div>
+    <div class="modal-title">Ã¢ÂÂ¡ CREATE TOURNAMENT</div>
     <label class="form-label">Name</label>
     <input type="text" id="tn-name" placeholder="e.g. Fitness February" maxlength="40" style="margin-bottom:10px">
     <label class="form-label">Description</label>
@@ -1829,7 +1854,7 @@ function createTourney(){
   if(!name||!quest||!endDate){err.style.display='block';err.textContent='Fill in all fields.';return}
   const ts=getTourneys();
   ts.unshift({id:'t_'+Date.now(),name,description:desc||'',questName:quest,category:cat||'',endDate:new Date(endDate).getTime(),active:true,createdAt:Date.now()});
-  saveTourneys(ts);closeModal();showToast('â¡','Tournament Created!',name,'green');renderGM();
+  saveTourneys(ts);closeModal();showToast('Ã¢ÂÂ¡','Tournament Created!',name,'green');renderGM();
 }
 
 // ===============================================================
@@ -1930,7 +1955,7 @@ const BUILT_IN_MISSIONS = [
   {
     id:'m_launch_lvluplife2',
     name:'LAUNCH LVLUPLIFE2',
-    icon:'ð',
+    icon:'Ã°ÂÂÂ',
     desc:'Everything you need to take LvlUpLife2 from a local file to a real product on the App Store. Complete these in order.',
     xpBonus:1000,
     color:'#00e5ff',
@@ -1954,7 +1979,7 @@ const BUILT_IN_MISSIONS = [
     ]
   },
   {
-    id:'m_bodystart', name:'Body in Motion', icon:'ðª',
+    id:'m_bodystart', name:'Body in Motion', icon:'Ã°ÂÂÂª',
     desc:'Get your fitness journey started with three different physical challenges.',
     xpBonus:150, color:'#f87171',
     quests:[
@@ -1964,7 +1989,7 @@ const BUILT_IN_MISSIONS = [
     ]
   },
   {
-    id:'m_mindset', name:'Master Your Mind', icon:'ð§ ',
+    id:'m_mindset', name:'Master Your Mind', icon:'Ã°ÂÂ§Â ',
     desc:'Build mental resilience through journaling, gratitude, and facing a fear.',
     xpBonus:200, color:'#818cf8',
     quests:[
@@ -1974,7 +1999,7 @@ const BUILT_IN_MISSIONS = [
     ]
   },
   {
-    id:'m_creative', name:'Creative Awakening', icon:'ð¨',
+    id:'m_creative', name:'Creative Awakening', icon:'Ã°ÂÂÂ¨',
     desc:'Express yourself across three different creative disciplines.',
     xpBonus:175, color:'#ff6b9d',
     quests:[
@@ -1984,7 +2009,7 @@ const BUILT_IN_MISSIONS = [
     ]
   },
   {
-    id:'m_socialwarrior', name:'Social Warrior', icon:'ð¤',
+    id:'m_socialwarrior', name:'Social Warrior', icon:'Ã°ÂÂ¤Â',
     desc:'Step outside your comfort zone and connect with the world around you.',
     xpBonus:150, color:'#f97316',
     quests:[
@@ -1994,7 +2019,7 @@ const BUILT_IN_MISSIONS = [
     ]
   },
   {
-    id:'m_outdoorsman', name:'Into the Wild', icon:'ð²',
+    id:'m_outdoorsman', name:'Into the Wild', icon:'Ã°ÂÂÂ²',
     desc:'Three challenges that get you outside and into nature.',
     xpBonus:175, color:'#4ade80',
     quests:[
@@ -2004,7 +2029,7 @@ const BUILT_IN_MISSIONS = [
     ]
   },
   {
-    id:'m_bookworm', name:'The Reading Arc', icon:'ð',
+    id:'m_bookworm', name:'The Reading Arc', icon:'Ã°ÂÂÂ',
     desc:'Complete the full reading journey from library visit to finishing a book.',
     xpBonus:125, color:'#f59e0b',
     quests:[
@@ -2014,7 +2039,7 @@ const BUILT_IN_MISSIONS = [
     ]
   },
   {
-    id:'m_hustler', name:'Entrepreneur Starter Pack', icon:'ð',
+    id:'m_hustler', name:'Entrepreneur Starter Pack', icon:'Ã°ÂÂÂ',
     desc:'Take the first real steps toward building something of your own.',
     xpBonus:250, color:'#fbbf24',
     quests:[
@@ -2025,7 +2050,7 @@ const BUILT_IN_MISSIONS = [
     ]
   },
   {
-    id:'m_wanderer', name:'World Explorer', icon:'âï¸',
+    id:'m_wanderer', name:'World Explorer', icon:'Ã¢ÂÂÃ¯Â¸Â',
     desc:'Begin your journey as a true explorer of this world.',
     xpBonus:200, color:'#06b6d4',
     quests:[
@@ -2035,7 +2060,7 @@ const BUILT_IN_MISSIONS = [
     ]
   },
   {
-    id:'m_healthfull', name:'Full Health Bar', icon:'â¤ï¸',
+    id:'m_healthfull', name:'Full Health Bar', icon:'Ã¢ÂÂ¤Ã¯Â¸Â',
     desc:'Eat well, move your body, and take care of your mind in one week.',
     xpBonus:225, color:'#f472b6',
     quests:[
@@ -2046,7 +2071,7 @@ const BUILT_IN_MISSIONS = [
     ]
   },
   {
-    id:'m_kindness', name:'Random Acts', icon:'â¨',
+    id:'m_kindness', name:'Random Acts', icon:'Ã¢ÂÂ¨',
     desc:'Spread goodness into the world through three acts of genuine kindness.',
     xpBonus:150, color:'#f472b6',
     quests:[
@@ -2056,7 +2081,7 @@ const BUILT_IN_MISSIONS = [
     ]
   },
   {
-    id:'m_levelgrind', name:'XP Grinder', icon:'âï¸',
+    id:'m_levelgrind', name:'XP Grinder', icon:'Ã¢ÂÂÃ¯Â¸Â',
     desc:'Complete quests across five different life categories in one go.',
     xpBonus:300, color:'#818cf8',
     quests:[
@@ -2068,7 +2093,7 @@ const BUILT_IN_MISSIONS = [
     ]
   },
   {
-    id:'m_family', name:'Family Ties', icon:'ð¨âð©âð§âð¦',
+    id:'m_family', name:'Family Ties', icon:'Ã°ÂÂÂ¨Ã¢ÂÂÃ°ÂÂÂ©Ã¢ÂÂÃ°ÂÂÂ§Ã¢ÂÂÃ°ÂÂÂ¦',
     desc:'Strengthen your most important relationships through real action.',
     xpBonus:175, color:'#fb923c',
     quests:[
@@ -2083,20 +2108,20 @@ const BUILT_IN_MISSIONS = [
 // DAILY QUEST DATA
 // ===============================================================
 const BUILT_IN_DAILIES = [
-  {id:'d_water',      icon:'ð§', name:'Drink 8 glasses of water',         xp:15},
-  {id:'d_food',       icon:'ð¥', name:'Eat at least one healthy meal',     xp:15},
-  {id:'d_prayer',     icon:'ð', name:'Pray or meditate for 10 minutes',   xp:20},
-  {id:'d_gratitude',  icon:'ð', name:'Write 3 things you are grateful for', xp:20},
-  {id:'d_exercise',   icon:'ð', name:'Move your body for 20+ minutes',    xp:25},
-  {id:'d_read',       icon:'ð', name:'Read for at least 20 minutes',      xp:15},
-  {id:'d_nophone',    icon:'ðµ', name:'No social media before noon',        xp:20},
-  {id:'d_sleep',      icon:'ð´', name:'Get 7-9 hours of sleep',            xp:15},
-  {id:'d_vitamins',   icon:'ð', name:'Take your vitamins or supplements',  xp:10},
-  {id:'d_cold',       icon:'ð¿', name:'Take a cold shower',                xp:25},
-  {id:'d_journal',    icon:'âï¸',  name:'Write a journal entry',             xp:20},
-  {id:'d_kindness',   icon:'â¤ï¸',  name:'Do one kind thing for someone',     xp:20},
-  {id:'d_outside',    icon:'ð³', name:'Spend time outside today',          xp:15},
-  {id:'d_stretch',    icon:'ð§', name:'Do 10 minutes of stretching',       xp:15},
+  {id:'d_water',      icon:'Ã°ÂÂÂ§', name:'Drink 8 glasses of water',         xp:15},
+  {id:'d_food',       icon:'Ã°ÂÂ¥Â', name:'Eat at least one healthy meal',     xp:15},
+  {id:'d_prayer',     icon:'Ã°ÂÂÂ', name:'Pray or meditate for 10 minutes',   xp:20},
+  {id:'d_gratitude',  icon:'Ã°ÂÂÂ', name:'Write 3 things you are grateful for', xp:20},
+  {id:'d_exercise',   icon:'Ã°ÂÂÂ', name:'Move your body for 20+ minutes',    xp:25},
+  {id:'d_read',       icon:'Ã°ÂÂÂ', name:'Read for at least 20 minutes',      xp:15},
+  {id:'d_nophone',    icon:'Ã°ÂÂÂµ', name:'No social media before noon',        xp:20},
+  {id:'d_sleep',      icon:'Ã°ÂÂÂ´', name:'Get 7-9 hours of sleep',            xp:15},
+  {id:'d_vitamins',   icon:'Ã°ÂÂÂ', name:'Take your vitamins or supplements',  xp:10},
+  {id:'d_cold',       icon:'Ã°ÂÂÂ¿', name:'Take a cold shower',                xp:25},
+  {id:'d_journal',    icon:'Ã¢ÂÂÃ¯Â¸Â',  name:'Write a journal entry',             xp:20},
+  {id:'d_kindness',   icon:'Ã¢ÂÂ¤Ã¯Â¸Â',  name:'Do one kind thing for someone',     xp:20},
+  {id:'d_outside',    icon:'Ã°ÂÂÂ³', name:'Spend time outside today',          xp:15},
+  {id:'d_stretch',    icon:'Ã°ÂÂ§Â', name:'Do 10 minutes of stretching',       xp:15},
 ];
 
 // ===============================================================
@@ -2140,10 +2165,10 @@ function checkMissionComplete(missionId) {
     p.level = getLevel(p.xp);
     saveProfile(p);
     saveMissionState(state);
-    addFeed({type:'mission', avatar:p.avatar||'âï¸', username:p.username, level:p.level,
+    addFeed({type:'mission', avatar:p.avatar||'Ã¢ÂÂÃ¯Â¸Â', username:p.username, level:p.level,
       missionName:mission.name, missionIcon:mission.icon, xp:mission.xpBonus, ts:Date.now()});
     Audio8.missionComplete();
-    setTimeout(() => showToast('ð¯', 'MISSION COMPLETE!', mission.icon + ' ' + mission.name + ' +' + mission.xpBonus + ' XP', 'gold'), 300);
+    setTimeout(() => showToast('Ã°ÂÂÂ¯', 'MISSION COMPLETE!', mission.icon + ' ' + mission.name + ' +' + mission.xpBonus + ' XP', 'gold'), 300);
     return true;
   }
   return false;
@@ -2169,7 +2194,7 @@ function renderMissions() {
         ? `<span style="font-family:var(--pixel);font-size:7px;color:var(--gold);margin-left:6px">+${q.xp||25}xp</span>`
         : '';
       return `<div class="mission-quest-row${isDone ? ' done' : ''}" ${clickHandler} style="${q.catId==='custom'&&!isDone?'cursor:pointer':''}">
-        <div class="mqcheck${isDone ? ' done' : ''}">${isDone ? 'â' : ''}</div>
+        <div class="mqcheck${isDone ? ' done' : ''}">${isDone ? 'Ã¢ÂÂ' : ''}</div>
         <span style="flex:1">${esc(q.label)}</span>
         ${xpBadge}
       </div>`;
@@ -2192,7 +2217,7 @@ function renderMissions() {
         <div class="mission-prog-fill" style="width:${prog.pct}%;background:linear-gradient(90deg,${esc(m.color)},${esc(m.color)}aa)"></div>
       </div>
       <div class="mission-quests">${questRows}</div>
-      ${isComplete ? '<div class="mission-complete-badge">â MISSION COMPLETE</div>' : ''}
+      ${isComplete ? '<div class="mission-complete-badge">Ã¢ÂÂ MISSION COMPLETE</div>' : ''}
       ${m.isCustom && isGM() ? `
         <div style="margin-top:10px;border-top:1px solid var(--border);padding-top:10px">
           <div style="font-family:var(--pixel);font-size:7px;color:var(--muted2);margin-bottom:6px">ADD OBJECTIVE</div>
@@ -2210,7 +2235,7 @@ function renderMissions() {
 
   document.getElementById('missions-c').innerHTML = `
     <div class="missions-header">
-      <div class="missions-title">ð¯ MISSIONS</div>
+      <div class="missions-title">Ã°ÂÂÂ¯ MISSIONS</div>
       <div style="font-size:12px;color:var(--muted2)">Complete all objectives to earn bonus XP</div>
     </div>
     ${isGM() ? renderCustomMissionBuilder() : ''}
@@ -2219,7 +2244,7 @@ function renderMissions() {
 }
 
 // In-progress custom mission being built by GM
-let _draftMission = { name:'', desc:'', icon:'ð¯', xp:200, quests:[] };
+let _draftMission = { name:'', desc:'', icon:'Ã°ÂÂÂ¯', xp:200, quests:[] };
 
 function renderCustomMissionBuilder() {
   const qRows = _draftMission.quests.map((q,i) => `
@@ -2227,7 +2252,7 @@ function renderCustomMissionBuilder() {
       <div style="width:14px;height:14px;border:1.5px solid var(--border2);flex-shrink:0"></div>
       <span style="flex:1;font-family:var(--vt);font-size:17px">${esc(q.label)}</span>
       <span style="font-family:var(--pixel);font-size:7px;color:var(--gold)">${q.xp}xp</span>
-      <button class="del-btn" onclick="removeDraftQuest(${i})">Ã</button>
+      <button class="del-btn" onclick="removeDraftQuest(${i})">ÃÂ</button>
     </div>`).join('');
 
   return `<div class="custom-mission-form">
@@ -2263,7 +2288,7 @@ function renderCustomMissionBuilder() {
 function addDraftQuest() {
   const label = document.getElementById('cm-q-label')?.value.trim();
   const xp = parseInt(document.getElementById('cm-q-xp')?.value) || 25;
-  if (!label) { showToast('â','Enter a quest description','',''); return; }
+  if (!label) { showToast('Ã¢ÂÂ','Enter a quest description','',''); return; }
   _draftMission.quests.push({ catId:'custom', label, xp });
   document.getElementById('cm-q-label').value = '';
   renderMissions();
@@ -2275,28 +2300,28 @@ function removeDraftQuest(idx) {
 }
 
 function clearDraftMission() {
-  _draftMission = { name:'', desc:'', icon:'ð¯', xp:200, quests:[] };
+  _draftMission = { name:'', desc:'', icon:'Ã°ÂÂÂ¯', xp:200, quests:[] };
   renderMissions();
 }
 
 function saveDraftMission() {
   const name = _draftMission.name.trim();
-  if (!name) { showToast('â','Give your mission a name','',''); return; }
-  if (!_draftMission.quests.length) { showToast('â','Add at least one objective','',''); return; }
+  if (!name) { showToast('Ã¢ÂÂ','Give your mission a name','',''); return; }
+  if (!_draftMission.quests.length) { showToast('Ã¢ÂÂ','Add at least one objective','',''); return; }
   const custom = getCustomMissions();
   custom.push({
     id: 'cm_' + Date.now(),
     name,
     desc: _draftMission.desc || '',
     xpBonus: _draftMission.xp || 200,
-    icon: _draftMission.icon || 'ð¯',
+    icon: _draftMission.icon || 'Ã°ÂÂÂ¯',
     color: '#00e5ff',
     isCustom: true,
     quests: _draftMission.quests.map(q => ({ ...q, idx: -1 }))
   });
   saveCustomMissions(custom);
-  _draftMission = { name:'', desc:'', icon:'ð¯', xp:200, quests:[] };
-  showToast('ð¯','Mission created!', name, 'green');
+  _draftMission = { name:'', desc:'', icon:'Ã°ÂÂÂ¯', xp:200, quests:[] };
+  showToast('Ã°ÂÂÂ¯','Mission created!', name, 'green');
   renderMissions();
 }
 
@@ -2311,13 +2336,13 @@ function addObjectiveToMission(missionId) {
   const xpEl = document.getElementById('mq-xp-' + missionId);
   const label = labelEl?.value.trim();
   const xp = parseInt(xpEl?.value) || 25;
-  if (!label) { showToast('â','Enter an objective','',''); return; }
+  if (!label) { showToast('Ã¢ÂÂ','Enter an objective','',''); return; }
   const custom = getCustomMissions();
   const mission = custom.find(m => m.id === missionId);
   if (!mission) return;
   mission.quests.push({ catId:'custom', label, xp, idx:-1 });
   saveCustomMissions(custom);
-  showToast('â','Objective added!', label.substring(0,40), 'green');
+  showToast('Ã¢ÂÂ','Objective added!', label.substring(0,40), 'green');
   renderMissions();
 }
 
@@ -2335,7 +2360,7 @@ function completeMissionObjective(missionId, questIdx, xpGain) {
   p.lastActive = Date.now();
   saveProfile(p);
   Audio8.questDone();
-  showToast('â¡', '+' + xpGain + ' XP', 'Objective complete!', 'green');
+  showToast('Ã¢ÂÂ¡', '+' + xpGain + ' XP', 'Objective complete!', 'green');
   setTimeout(() => { allMissions().forEach(m => { if(!getMissionState()[m.id+'_celebrated']) checkMissionComplete(m.id); }); }, 200);
   renderMissions();
 }
@@ -2377,17 +2402,17 @@ function renderDaily() {
   const dailyRows = dailies.map(d => {
     const isDone = !!state[d.id];
     return `<div class="daily-card${isDone ? ' done' : ''}" onclick="tapDaily('${d.id}')">
-      <div class="daily-check${isDone ? ' done' : ''}">${isDone ? 'â' : ''}</div>
+      <div class="daily-check${isDone ? ' done' : ''}">${isDone ? 'Ã¢ÂÂ' : ''}</div>
       <span class="daily-icon">${d.icon}</span>
       <span class="daily-name">${esc(d.name)}</span>
       <span class="daily-xp">+${d.xp}xp</span>
-      ${d.isCustom && isGM() ? `<button class="del-btn" onclick="deleteCustomDaily('${d.id}');event.stopPropagation()">Ã</button>` : ''}
+      ${d.isCustom && isGM() ? `<button class="del-btn" onclick="deleteCustomDaily('${d.id}');event.stopPropagation()">ÃÂ</button>` : ''}
     </div>`;
   }).join('');
 
   document.getElementById('daily-c').innerHTML = `
     <div class="daily-header">
-      <div class="daily-title">ð DAILY QUESTS</div>
+      <div class="daily-title">Ã°ÂÂÂ DAILY QUESTS</div>
       <div class="daily-reset" id="daily-countdown">Resets in ${formatCountdown(msLeft)}</div>
     </div>
 
@@ -2402,14 +2427,14 @@ function renderDaily() {
     </div>
 
     ${allDone ? `<div style="background:rgba(255,215,0,.08);border:1px solid rgba(255,215,0,.3);padding:10px;text-align:center;font-family:var(--pixel);font-size:8px;color:var(--gold);margin-bottom:14px;text-shadow:0 0 8px rgba(255,215,0,.4)">
-      â ALL DAILIES COMPLETE! COME BACK TOMORROW â
+      Ã¢ÂÂ ALL DAILIES COMPLETE! COME BACK TOMORROW Ã¢ÂÂ
     </div>` : ''}
 
     ${isGM() ? `
     <div class="custom-mission-form" style="margin-bottom:16px">
       <div class="custom-mission-title">+ ADD CUSTOM DAILY</div>
       <div style="display:flex;gap:6px;margin-bottom:8px">
-        <input type="text" id="cd-icon" placeholder="Icon" style="width:60px;flex-shrink:0" maxlength="4" value="â­">
+        <input type="text" id="cd-icon" placeholder="Icon" style="width:60px;flex-shrink:0" maxlength="4" value="Ã¢Â­Â">
         <input type="text" id="cd-name" placeholder="Daily quest name..." maxlength="60" style="flex:1">
         <input type="number" id="cd-xp" placeholder="XP" style="width:60px;flex-shrink:0" value="15" min="5" max="100">
       </div>
@@ -2446,7 +2471,7 @@ function tapDaily(id) {
   p.lastActive = Date.now();
   saveProfile(p);
 
-  addFeed({type:'daily', avatar:p.avatar||'âï¸', username:p.username, level:p.level,
+  addFeed({type:'daily', avatar:p.avatar||'Ã¢ÂÂÃ¯Â¸Â', username:p.username, level:p.level,
     dailyIcon:daily.icon, dailyName:daily.name, xp:daily.xp, ts:Date.now()});
 
   Audio8.dailyDone();
@@ -2459,7 +2484,7 @@ function tapDaily(id) {
   if (allDoneNow) {
     setTimeout(() => {
       Audio8.allDailyDone();
-      showToast('ð', 'ALL DAILIES COMPLETE!', 'Incredible discipline!', 'gold');
+      showToast('Ã°ÂÂÂ', 'ALL DAILIES COMPLETE!', 'Incredible discipline!', 'gold');
     }, 600);
   }
 
@@ -2467,14 +2492,14 @@ function tapDaily(id) {
 }
 
 function addCustomDaily() {
-  const icon = document.getElementById('cd-icon')?.value.trim() || 'â­';
+  const icon = document.getElementById('cd-icon')?.value.trim() || 'Ã¢Â­Â';
   const name = document.getElementById('cd-name')?.value.trim();
   const xp = parseInt(document.getElementById('cd-xp')?.value) || 15;
   if (!name) return;
   const custom = getCustomDailies();
   custom.push({ id: 'cd_' + Date.now(), icon, name, xp, isCustom: true });
   saveCustomDailies(custom);
-  showToast('â', 'Daily added!', name, 'green');
+  showToast('Ã¢ÂÂ', 'Daily added!', name, 'green');
   renderDaily();
 }
 
@@ -2498,7 +2523,7 @@ function bootApp(){
 function updateTopbar(){
   const p = loadProfile(); if(!p) return;
   document.getElementById('topbar-right').innerHTML=`
-    <button class="topbar-btn" onclick="openSettings()">â</button>
+    <button class="topbar-btn" onclick="openSettings()">Ã¢ÂÂ</button>
     <button class="topbar-btn" onclick="signOut()">Sign Out</button>
   `;
 }
@@ -2521,7 +2546,7 @@ async function loadGMUsers(){
 const _origRenderGM = renderGM;
 async function renderGM(){
   if(!isGM()){
-    document.getElementById('gm-c').innerHTML='<div class="empty" style="padding-top:80px"><div class="empty-emoji">ð</div><div style="font-size:13px;color:var(--muted2)">Access denied.</div></div>';
+    document.getElementById('gm-c').innerHTML='<div class="empty" style="padding-top:80px"><div class="empty-emoji">Ã°ÂÂÂ</div><div style="font-size:13px;color:var(--muted2)">Access denied.</div></div>';
     return;
   }
   // Load fresh data
@@ -2550,10 +2575,10 @@ async function renderGM(){
     const customs = Object.entries(u.custom_quests||{}).flatMap(([cat,arr])=>(Array.isArray(arr)?arr:[]).map(q=>q.text||''));
     return `<div class="gm-user-card">
       <div class="gm-user-top">
-        <div class="gm-user-av">${u.avatar||'âï¸'}</div>
+        <div class="gm-user-av">${u.avatar||'Ã¢ÂÂÃ¯Â¸Â'}</div>
         <div style="flex:1">
           <div class="gm-user-name">${esc(u.username)}</div>
-          <div class="gm-user-meta ${statusCls}">â ${statusLbl} Â· ð¥${u.streak||0} streak</div>
+          <div class="gm-user-meta ${statusCls}">Ã¢ÂÂ ${statusLbl} ÃÂ· Ã°ÂÂÂ¥${u.streak||0} streak</div>
         </div>
         <div style="text-align:right">
           <div style="font-family:var(--pixel);font-size:10px;color:var(--cyan)">Lv.${u.level||1}</div>
@@ -2566,9 +2591,9 @@ async function renderGM(){
         <div class="gm-us"><div class="gm-us-val">${cc}</div><div class="gm-us-label">Custom</div></div>
       </div>
       ${unlockedAchs.length?'<div class="pill-row">'+unlockedAchs.map(a=>'<span class="pill-ach">'+a.icon+' '+esc(a.name)+'</span>').join('')+'</div>':''}
-      ${customs.length?'<div class="pill-row">'+customs.slice(0,4).map(t=>'<span class="pill-custom">â­ '+esc(t.substring(0,22))+(t.length>22?'...':'')+'</span>').join('')+(customs.length>4?'<span class="pill-custom">+'+(customs.length-4)+' more</span>':'')+'</div>':''}
+      ${customs.length?'<div class="pill-row">'+customs.slice(0,4).map(t=>'<span class="pill-custom">Ã¢Â­Â '+esc(t.substring(0,22))+(t.length>22?'...':'')+'</span>').join('')+(customs.length>4?'<span class="pill-custom">+'+(customs.length-4)+' more</span>':'')+'</div>':''}
     </div>`;
-  }).join('') : '<div class="empty"><div class="empty-emoji">ð¤</div><div class="empty-text">No users yet.</div></div>';
+  }).join('') : '<div class="empty"><div class="empty-emoji">Ã°ÂÂÂ¤</div><div class="empty-text">No users yet.</div></div>';
 
   const pendingHtml = pending.length ? pending.map(s=>`
     <div class="sub-review-card">
@@ -2576,17 +2601,17 @@ async function renderGM(){
         <div style="width:36px;height:36px;background:var(--bg3);border:2px solid var(--border2);display:flex;align-items:center;justify-content:center;font-size:20px">${s.avatar}</div>
         <div>
           <div style="font-family:var(--pixel);font-size:9px;color:var(--cyan)">${esc(s.username)}</div>
-          <div style="font-size:11px;color:var(--muted2)">${esc(s.tName||'')} Â· ${timeAgo(s.submittedAt)}</div>
+          <div style="font-size:11px;color:var(--muted2)">${esc(s.tName||'')} ÃÂ· ${timeAgo(s.submittedAt)}</div>
         </div>
       </div>
       ${s.photo?'<img src="'+s.photo+'" class="sub-photo">':''}
       <div class="sub-note-box">"${esc(s.note)}"</div>
       <input type="text" id="gmnote-${s.id}" placeholder="Optional message to user..." style="margin-bottom:8px;font-size:12px">
       <div class="review-btns">
-        <button class="btn btn-danger btn-sm" style="flex:1" onclick="reviewSub('${s.id}','reject')">â Reject</button>
-        <button class="btn btn-green btn-sm" style="flex:1" onclick="reviewSub('${s.id}','approve')">â Approve</button>
+        <button class="btn btn-danger btn-sm" style="flex:1" onclick="reviewSub('${s.id}','reject')">Ã¢ÂÂ Reject</button>
+        <button class="btn btn-green btn-sm" style="flex:1" onclick="reviewSub('${s.id}','approve')">Ã¢ÂÂ Approve</button>
       </div>
-    </div>`).join('') : '<div class="empty"><div class="empty-emoji">â</div><div class="empty-text">No pending submissions.</div></div>';
+    </div>`).join('') : '<div class="empty"><div class="empty-emoji">Ã¢ÂÂ</div><div class="empty-text">No pending submissions.</div></div>';
 
   const tourneyManageHtml = tourneys.map(t=>`
     <div class="tourney-manage-row">
@@ -2599,9 +2624,9 @@ async function renderGM(){
 
   document.getElementById('gm-c').innerHTML=`
     <div class="gm-header-card">
-      <div class="gm-title">ðï¸ GAME MASTER DASHBOARD</div>
+      <div class="gm-title">Ã°ÂÂÂÃ¯Â¸Â GAME MASTER DASHBOARD</div>
       <div style="font-size:11px;color:var(--muted2)">Only you can see this</div>
-      <button class="btn btn-ghost btn-sm" style="margin-top:8px" onclick="renderGM()">â» Refresh</button>
+      <button class="btn btn-ghost btn-sm" style="margin-top:8px" onclick="renderGM()">Ã¢ÂÂ» Refresh</button>
     </div>
     <div class="gm-quote-card">
       <div class="gm-quote-mark">"</div>
@@ -2616,12 +2641,12 @@ async function renderGM(){
       <div class="gm-stat"><div class="gm-stat-val">${pending.length}</div><div class="gm-stat-label">Pending</div></div>
       <div class="gm-stat"><div class="gm-stat-val">${subs.filter(s=>s.status==='approved').length}</div><div class="gm-stat-label">Approved</div></div>
     </div>
-    <div class="gm-section">â³ Pending Submissions (${pending.length})</div>
+    <div class="gm-section">Ã¢ÂÂ³ Pending Submissions (${pending.length})</div>
     ${pendingHtml}
-    <div class="gm-section">â¡ Manage Tournaments</div>
+    <div class="gm-section">Ã¢ÂÂ¡ Manage Tournaments</div>
     <button class="btn btn-purple btn-full btn-sm" style="margin-bottom:10px" onclick="openCreateTourney()">+ Create Tournament</button>
     ${tourneyManageHtml||'<div style="font-size:12px;color:var(--muted2);text-align:center;padding:12px">No tournaments yet.</div>'}
-    <div class="gm-section">ð¤ All Users (${allUsers.length})</div>
+    <div class="gm-section">Ã°ÂÂÂ¤ All Users (${allUsers.length})</div>
     ${usersHtml}
     <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border);text-align:center">
       <button class="btn btn-ghost btn-sm" onclick="gmLogout()">Exit GM Mode</button>
@@ -2667,7 +2692,7 @@ document.addEventListener('keydown',e=>{
 </script>
 
 <script id="lvlup-username-login-patch">
-// ── LvlUpLife2: Username→Email Login Patch ─────────────────────────────────
+// ââ LvlUpLife2: UsernameâEmail Login Patch âââââââââââââââââââââââââââââââââ
 (function() {
   const _SUPA = 'https://ygtmafgqvaopzuhzlpab.supabase.co';
   const _KEY  = 'sb_publishable_87X2m3s2yqDlgksU3_L1qA_bIh5qCNC';
@@ -2683,7 +2708,7 @@ document.addEventListener('keydown',e=>{
       );
       const rows = await res.json();
       if (Array.isArray(rows) && rows.length && rows[0].email) {
-        console.log('[lvlup] Resolved username \"' + val + '\" → email');
+        console.log('[lvlup] Resolved username \"' + val + '\" â email');
         return rows[0].email;
       }
     } catch(e) { console.warn('[lvlup] Username lookup failed:', e); }
@@ -2758,7 +2783,7 @@ document.addEventListener('keydown',e=>{
 </script>
 
 <script id="lvlup-signup-email-patch">
-// ── LvlUpLife2: Save email to profiles after signup ─────────────────────────
+// ââ LvlUpLife2: Save email to profiles after signup âââââââââââââââââââââââââ
 (function() {
   const _SUPA = 'https://ygtmafgqvaopzuhzlpab.supabase.co';
   const _KEY  = 'sb_publishable_87X2m3s2yqDlgksU3_L1qA_bIh5qCNC';
