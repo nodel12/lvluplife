@@ -1000,16 +1000,30 @@ async function doSignup(){
   });
   if(error){ err.textContent=error.message; if(btn) btn.textContent='▶ CREATE CHARACTER'; return; }
 
+  if(data.user){
+    // Manually insert profile as fallback in case trigger fails
+    await supa.from('profiles').upsert({
+      id: data.user.id,
+      username: u,
+      avatar: selectedAv,
+      xp: 0,
+      level: 1,
+      streak: 0,
+      stats: {Strength:0,Intellect:0,Agility:0,Wisdom:0,Charisma:0,Vitality:0,Creativity:0,Wanderlust:0},
+      done: {},
+      achievements: {},
+      custom_quests: {}
+    }, { onConflict: 'id' });
+  }
+
   if(data.session){
-    // Email confirmation off -- logged in immediately
     _session = data.session;
     await loadProfileFromDB();
     bootApp();
     showToast('🎉','Character created!', u+' is ready to level up','gold');
   } else {
-    // Email confirmation required
     err.style.color='var(--green)';
-    err.textContent='Check your email and click the confirmation link, then come back and sign in!';
+    err.textContent='Check your email and click the confirmation link, then come back and log in!';
     if(btn) btn.textContent='▶ CREATE CHARACTER';
   }
 }
