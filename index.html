@@ -988,8 +988,6 @@ async function doSignup(){
   if(!u||!em||!pw){err.textContent='Please fill in all fields.';return}
   if(u.length<2){err.textContent='Username must be at least 2 characters.';return}
   if(pw.length<6){err.textContent='Password must be at least 6 characters.';return}
-  if(u.toLowerCase()===GM_USERNAME.toLowerCase()){err.textContent='Username already taken.';return}
-
   // Check username not taken
   const {data:existing} = await supa.from('profiles').select('id').eq('username',u).single();
   if(existing){err.textContent='Username already taken.';return}
