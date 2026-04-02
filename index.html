@@ -1666,10 +1666,8 @@ const GM_USERNAME = 'nodel';
 const GM_PASSWORD = 'Joshuasteward21!';
 
 function isGM(){
-  const id = getActiveId();
-  const users = getUsers();
-  const user = users[id];
-  return user && user.username === GM_USERNAME;
+  if(!_session) return false;
+  return _session.user.user_metadata?.username === GM_USERNAME;
 }
 function gmLogout(){document.getElementById('nb-gm').style.display='none';go('home')}
 
