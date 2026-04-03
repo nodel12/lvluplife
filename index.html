@@ -2075,7 +2075,25 @@ const BUILT_IN_MISSIONS = [
       {catId:'family', idx:4, label:'Help a family member with something they are struggling with'},
     ]
   },
-];
+,
+  {
+    id:'m_paramedic_app',
+    name:'Paramedic App',
+    icon:'🚑',
+    desc:'Complete your health record requirements for the South Suburban Hospital paramedic program.',
+    xpBonus:300,
+    color:'#f87171',
+    quests:[
+      {catId:'custom', label:'Schedule appointment @ South Suburban Hospital', xp:25, idx:-1},
+      {catId:'custom', label:'Get TB test (PPD or QuantiFERON)', xp:50, idx:-1},
+      {catId:'custom', label:'Get Varicella proof (vaccine or titer)', xp:50, idx:-1},
+      {catId:'custom', label:'Submit MMR record', xp:25, idx:-1},
+      {catId:'custom', label:'Submit Tdap record', xp:25, idx:-1},
+      {catId:'custom', label:'Submit Hepatitis B record', xp:25, idx:-1},
+      {catId:'custom', label:'Submit TB proof', xp:25, idx:-1},
+      {catId:'custom', label:'Submit Varicella proof', xp:25, idx:-1},
+    ]
+  }];
 
 // ===============================================================
 // DAILY QUEST DATA
